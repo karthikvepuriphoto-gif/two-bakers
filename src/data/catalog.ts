@@ -7,6 +7,10 @@ export const foods = foodsJson as Food[]
 export const pantry = pantryJson as PantryItem[]
 export const recipes = recipesJson as Recipe[]
 
+export function requiredPantryIds(recipe: Recipe) {
+  return [...new Set(recipe.lines.filter((line) => !line.optional).map((line) => line.pantryId))]
+}
+
 export const foodMap = new Map(foods.map((food) => [food.id, food]))
 export const pantryMap = new Map(pantry.map((item) => [item.id, item]))
 

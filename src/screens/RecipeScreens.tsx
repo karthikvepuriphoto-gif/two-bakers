@@ -1,15 +1,17 @@
 import { useEffect, useMemo, useState } from "react"
 import { FoodArt } from "../components/FoodArt.tsx"
 import { GrownupBadges, NutrientHero } from "../components/Meters.tsx"
-import { STICKERS, foodMap, pantryMap, recipes } from "../data/catalog.ts"
+import { STICKERS, foodMap, pantry as pantryItems, pantryMap, recipes } from "../data/catalog.ts"
 import type { AllergyId, Recipe } from "../data/types.ts"
-import { planRecipe, type Fit, type Plan } from "../lib/match.ts"
+import { bestUnlock, planRecipe, type Fit, type Plan } from "../lib/match.ts"
 import { formatGrams, formatNutrient } from "../lib/nutrition.ts"
 
 interface ListProps {
   pantry: string[]
   allergies: AllergyId[]
   favorites: string[]
+  browse: boolean
+  onBrowse: () => void
   onOpen: (id: string) => void
   onFavorite: (id: string) => void
 }
@@ -20,8 +22,8 @@ const TABS: { id: Fit | "all"; label: string }[] = [
   { id: "all", label: "All snacks" },
 ]
 
-export function RecipeList({ pantry, allergies, favorites, onOpen, onFavorite }: ListProps) {
-  const [tab, setTab] = useState<(typeof TABS)[number]["id"]>("now")
+export function RecipeList({ pantry, allergies, favorites, browse, onBrowse, onOpen, onFavorite }: ListProps) {
+  const [tab, setTab] = useState<(typeof TABS)[number]["id"]>("all")
   const [sort, setSort] = useState("protein")
   const [category, setCategory] = useState("All")
   const [powerOnly, setPowerOnly] = useState(false)
@@ -37,13 +39,57 @@ export function RecipeList({ pantry, allergies, favorites, onOpen, onFavorite }:
     almost: planned.filter((item) => item.plan.fit === "almost").length,
   }
   const needle = query.trim().toLowerCase()
-  const shown = planned
-    .filter((item) => item.plan.fit !== "hidden")
+  const visible = planned.filter((item) => item.plan.fit !== "hidden")
+  const nowItems = visible.filter((item) => item.plan.fit === "now").sort((a, b) => compare(a, b, sort))
+  const almostItems = visible.filter((item) => item.plan.fit === "almost").sort((a, b) => compare(a, b, sort))
+  const shown = visible
     .filter((item) => (tab === "all" ? true : item.plan.fit === tab))
     .filter((item) => category === "All" || item.recipe.category === category)
     .filter((item) => !powerOnly || item.plan.perServing.protein >= 8)
     .filter((item) => !needle || item.recipe.title.toLowerCase().includes(needle))
     .sort((a, b) => compare(a, b, sort))
+  const unlock = useMemo(() => bestUnlock(owned, allergies, foodMap, pantryItems, recipes), [owned, allergies])
+
+  if (!browse) {
+    return (
+      <div className="grid gap-4">
+        <header>
+          <h1 className="font-display text-4xl">Your recipes</h1>
+          <p className="mt-1 text-lg font-bold text-ink/80">
+            {nowItems.length} you can bake now · {almostItems.length} missing 1 or 2 foods
+          </p>
+        </header>
+        {nowItems.length > 0 && (
+          <section className="grid gap-3">
+            <h2 className="font-display text-3xl">You can bake now</h2>
+            <ul className="grid gap-3 md:grid-cols-2">
+              {nowItems.map((item) => (
+                <li key={item.recipe.id}>
+                  <RecipeCard item={item} favorite={favorites.includes(item.recipe.id)} onOpen={onOpen} onFavorite={onFavorite} />
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+        {almostItems.length > 0 && (
+          <section className="grid gap-3">
+            <h2 className="font-display text-3xl">Missing 1–2 ingredients</h2>
+            <ul className="grid gap-3 md:grid-cols-2">
+              {almostItems.map((item) => (
+                <li key={item.recipe.id}>
+                  <RecipeCard item={item} favorite={favorites.includes(item.recipe.id)} onOpen={onOpen} onFavorite={onFavorite} />
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+        {nowItems.length === 0 && almostItems.length === 0 && <UnlockCard unlock={unlock} />}
+        <button type="button" onClick={onBrowse} className="rounded-full bg-white px-4 py-4 text-lg font-extrabold">
+          Start with a recipe
+        </button>
+      </div>
+    )
+  }
 
   return (
     <div className="grid gap-4">
@@ -99,36 +145,79 @@ export function RecipeList({ pantry, allergies, favorites, onOpen, onFavorite }:
         </button>
       </div>
       {shown.length === 0 && (
-        <p className="rounded-3xl bg-white p-4 text-lg font-bold">
-          Nothing in this pile. Try All snacks, or turn off a filter. Safety switches hide recipes that are not safe.
-        </p>
+        <div className="grid gap-3">
+          <p className="rounded-3xl bg-white p-4 text-lg font-bold">
+            Nothing in this pile. Try another word, or turn off a filter. Safety switches hide recipes that are not safe.
+          </p>
+          <UnlockCard unlock={unlock} />
+        </div>
       )}
       <ul className="grid gap-3 md:grid-cols-2">
-        {shown.map(({ recipe, plan }) => (
-          <li key={recipe.id}>
-            <article className="grid gap-3 rounded-3xl bg-white p-4 shadow-sm">
-              <div className="flex items-start justify-between gap-3">
-                <button type="button" onClick={() => onOpen(recipe.id)} className="text-left">
-                  <p className="text-sm font-extrabold uppercase tracking-wide text-berry">{recipe.category}</p>
-                  <h2 className="font-display text-2xl leading-tight">{recipe.title}</h2>
-                </button>
-                <button type="button" aria-pressed={favorites.includes(recipe.id)} aria-label={favorites.includes(recipe.id) ? "Remove favorite" : "Save favorite"} onClick={() => onFavorite(recipe.id)} className="rounded-full bg-blush px-3 py-2 text-xl">
-                  {favorites.includes(recipe.id) ? "♥" : "♡"}
-                </button>
-              </div>
-              <button type="button" onClick={() => onOpen(recipe.id)} className="grid grid-cols-2 gap-2 text-left">
-                <Stat label="Protein" value={`${formatNutrient(plan.perServing.protein)} g`} />
-                <Stat label="Fiber" value={`${formatNutrient(plan.perServing.fiber)} g`} />
-              </button>
-              <FitLine plan={plan} />
-              <button type="button" onClick={() => onOpen(recipe.id)} className="rounded-full bg-coral px-4 py-3 text-base font-extrabold text-white">
-                Open this snack
-              </button>
-            </article>
+        {shown.map((item) => (
+          <li key={item.recipe.id}>
+            <RecipeCard item={item} favorite={favorites.includes(item.recipe.id)} onOpen={onOpen} onFavorite={onFavorite} />
           </li>
         ))}
       </ul>
     </div>
+  )
+}
+
+function RecipeCard({
+  item,
+  favorite,
+  onOpen,
+  onFavorite,
+}: {
+  item: { recipe: Recipe; plan: Plan }
+  favorite: boolean
+  onOpen: (id: string) => void
+  onFavorite: (id: string) => void
+}) {
+  const { recipe, plan } = item
+  return (
+    <article className="grid gap-3 rounded-3xl bg-white p-4 shadow-sm">
+      <div className="flex items-start justify-between gap-3">
+        <button type="button" onClick={() => onOpen(recipe.id)} className="text-left">
+          <p className="text-sm font-extrabold uppercase tracking-wide text-berry">{recipe.category}</p>
+          <h2 className="font-display text-2xl leading-tight">{recipe.title}</h2>
+        </button>
+        <button type="button" aria-pressed={favorite} aria-label={favorite ? "Remove favorite" : "Save favorite"} onClick={() => onFavorite(recipe.id)} className="rounded-full bg-blush px-3 py-2 text-xl">
+          {favorite ? "♥" : "♡"}
+        </button>
+      </div>
+      <button type="button" onClick={() => onOpen(recipe.id)} className="grid grid-cols-2 gap-2 text-left">
+        <Stat label="Protein" value={`${formatNutrient(plan.perServing.protein)} g`} />
+        <Stat label="Fiber" value={`${formatNutrient(plan.perServing.fiber)} g`} />
+      </button>
+      <FitLine plan={plan} />
+      <button type="button" onClick={() => onOpen(recipe.id)} className="rounded-full bg-coral px-4 py-3 text-base font-extrabold text-white">
+        Open this snack
+      </button>
+    </article>
+  )
+}
+
+export function UnlockCard({
+  unlock,
+  onAdd,
+}: {
+  unlock: { id: string; name: string; count: number } | null
+  onAdd?: (id: string) => void
+}) {
+  if (!unlock) {
+    return (
+      <p className="rounded-3xl bg-sun p-4 text-lg font-extrabold">
+        These foods are not close to a snack yet. Try bananas, oats, or peanut butter.
+      </p>
+    )
+  }
+  const sentence = `Add ${unlock.name.toLowerCase()} to unlock ${unlock.count} ${unlock.count === 1 ? "recipe" : "recipes"}.`
+  if (!onAdd) return <p className="rounded-3xl bg-sun p-4 text-lg font-extrabold">{sentence}</p>
+  return (
+    <button type="button" onClick={() => onAdd(unlock.id)} className="rounded-3xl bg-sun p-4 text-left text-lg font-extrabold">
+      {sentence}
+    </button>
   )
 }
 

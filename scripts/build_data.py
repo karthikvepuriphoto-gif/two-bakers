@@ -1235,6 +1235,133 @@ recipes.append(R(
 ))
 
 
+recipes.append(R(
+    "bobs-banana-oat-cookies",
+    "2-ingredient banana oat cookies",
+    "Cookies",
+    "One banana and a cup of oats. No peanut butter, no sugar jar.",
+    8, "1 cookie", 20,
+    "Bob's Red Mill",
+    "https://www.bobsredmill.com/recipes/how-to-make/2-ingredient-banana-oat-cookies",
+    "Bob's Red Mill",
+    [
+        line("oats", "1 cup quick-cooking rolled oats", CUP_OATS, "USDA 1 cup dry oats = 81 g. Bob's uses quick-cooking rolled oats. The cup weight is the same rolled-oat cup."),
+        line("banana", "1 large overripe banana (about 1/2 cup mashed)", LARGE_BANANA, "Bob's says 1 large banana, about 1/2 cup mashed. USDA 1 large banana = 136 g. A USDA 1/2 cup mashed banana is 112.5 g. The large-banana weight is counted."),
+    ],
+    [
+        {"text": "Ask a grown-up to heat the oven to 350°F. Line a baking sheet.", "grownup": ["oven"]},
+        {"text": "Mash the banana until it looks smooth and wet. Stir in the oats.", "grownup": []},
+        {"text": "Divide the dough into 8 balls. Flatten each one. They will not spread in the oven.", "grownup": []},
+        {"text": "Bake until the bottoms turn light brown and lift off the sheet.", "timerSec": 15 * 60, "timerLabel": "15 minutes", "grownup": ["oven"]},
+        {"text": "Cool them all the way before eating. A grown-up takes the pan out.", "grownup": ["oven"]},
+    ],
+    unquantified=["Optional chocolate chips, nuts, dried fruit, vanilla, salt, or up to 2 tbsp maple syrup. Left out of the count."],
+))
+
+recipes.append(R(
+    "kirbie-pb-cookies",
+    "3-ingredient peanut butter cookies",
+    "Cookies",
+    "Peanut butter, one egg, and maple syrup. No flour.",
+    21, "1 cookie", 20,
+    "Kirbie's Cravings",
+    "https://kirbiecravings.com/3-ingredient-healthy-peanut-butter-cookies/",
+    "Jennifer Lee",
+    [
+        line("pb-unsalted", "1 cup (256 g) natural peanut butter", 256, "Jennifer printed 256 g. Natural peanut butter, no added oil."),
+        line("egg", "1 large egg", LARGE_EGG, "USDA 1 large egg = 50 g."),
+        line("maple", "1/4 cup pure maple syrup", CUP_MAPLE / 4, "USDA 1 cup maple syrup = 315 g, so 1/4 cup is 78.75 g. Jennifer also writes 59 ml."),
+    ],
+    [
+        {"text": "Ask a grown-up to heat the oven to 350°F. Line two cookie sheets.", "grownup": ["oven"]},
+        {"text": "Stir the peanut butter, whisked egg, and maple syrup until the dough gets thick.", "grownup": []},
+        {"text": "Scoop tablespoon balls. Flatten them a little. A fork can press a criss-cross on top.", "grownup": []},
+        {"text": "Bake until the tops look dry and a little cracked.", "timerSec": 10 * 60, "timerLabel": "10 minutes", "grownup": ["oven"]},
+        {"text": "Leave the cookies on the sheet until they are fully cool. A grown-up moves the pan.", "grownup": ["oven"]},
+    ],
+    swaps=[EGG_YOGURT],
+))
+
+recipes.append(R(
+    "real-meal-deal-brownies",
+    "Flourless banana peanut butter brownies",
+    "Brownies",
+    "Bananas, peanut butter, and cocoa. No flour and no added sugar.",
+    9, "1 brownie", 30,
+    "The Real Meal Deal",
+    "https://www.therealmealdeal.com/peanut-butter-banana-brownie-3-ingredients/",
+    "Claire Carter",
+    [
+        line("banana", "3 ripe bananas (400 g, the low end of Claire's 400–500 g)", 400, "Claire prints 400–500 g for 3 bananas. The low end, 400 g, is counted."),
+        line("pb-unsalted", "120 g peanut butter", 120, "Claire printed 120 g and asks for peanut butter made from peanuts."),
+        line("cocoa", "50 g cocoa powder", 50, "Claire printed 50 g unsweetened cocoa powder."),
+    ],
+    [
+        {"text": "Ask a grown-up to heat the oven to 360°F. Line an 8-inch square pan with parchment.", "grownup": ["oven"]},
+        {"text": "Mash the bananas. Stir in the peanut butter and cocoa until the batter is smooth.", "grownup": []},
+        {"text": "Spread it in the pan.", "grownup": []},
+        {"text": "Bake on the middle shelf until the top is set.", "timerSec": 25 * 60, "timerLabel": "25 minutes", "grownup": ["oven"]},
+        {"text": "Cool all the way, then slice into 9 squares. A grown-up uses the knife.", "grownup": ["knife", "oven"]},
+    ],
+    swaps=[
+        swap("pb-to-almond", "peanut-butter", "Claire says almond butter works the same way.", "The Real Meal Deal, substituting other butters.", adds=[{"foodId": "almond-butter"}], same_grams=True, author=True),
+        swap("pb-to-sun", "peanut-butter", "Claire says sunflower seed butter works for a nut-free pan.", "The Real Meal Deal, substituting other butters.", adds=[{"foodId": "sunflower-butter"}], same_grams=True, author=True),
+    ],
+    unquantified=["Optional chocolate chips on top. Left out of the count. Claire's card shows 9 next to the calorie line, and the method says to slice into squares, so this count uses 9 brownies."],
+))
+
+recipes.append(R(
+    "protein-chef-flatbread",
+    "Two-ingredient cottage cheese flatbread",
+    "Flatbread",
+    "Just cottage cheese and two eggs. Blend, spread, bake.",
+    1, "1 flatbread", 35,
+    "The Protein Chef",
+    "https://theproteinchef.co/cottage-cheese-flatbread-recipe/",
+    "The Protein Chef",
+    [
+        line("cottage-4", "1 cup cottage cheese", CUP_COTTAGE_4, "The Protein Chef says full, reduced, or fat-free all work. USDA small-curd creamed cottage cheese, 1 cup = 225 g."),
+        line("egg", "2 large eggs", 2 * LARGE_EGG, "USDA 1 large egg = 50 g.", count=2),
+    ],
+    [
+        {"text": "Ask a grown-up to heat the oven to 350°F. Line a baking sheet with parchment.", "grownup": ["oven"]},
+        {"text": "Blend the cottage cheese and eggs until smooth. A grown-up runs the blender.", "grownup": []},
+        {"text": "Pour the mix on the sheet and spread it thin.", "grownup": []},
+        {"text": "Bake until the edges brown. A thin one is ready sooner than a thick one.", "timerSec": 35 * 60, "timerLabel": "35 minutes", "grownup": ["oven"]},
+        {"text": "Cool it all the way so it firms up. Then fold it or cut it.", "grownup": ["knife"]},
+    ],
+    unquantified=["Optional 3/4 tsp garlic powder and 1 tsp Italian seasoning. Left out of the count."],
+))
+
+recipes.append(R(
+    "ada-power-oats-mug",
+    "Power oats yogurt mug muffin",
+    "Mug cakes",
+    "A one-mug cake from the American Diabetes Association. Yogurt, an egg, and a little oat flour.",
+    1, "1 mug muffin", 7,
+    "American Diabetes Association",
+    "https://diabetesfoodhub.org/recipes/power-oats-mug-muffin",
+    "American Diabetes Association",
+    [
+        line("greek-nonfat", "3 tbsp plain nonfat Greek yogurt", 3 * CUP_GREEK / 16, "The page says 3 tbsp (44 ml) plain nonfat Greek yogurt. USDA has no Greek tablespoon. 3/16 of the 226 g cup is 42.38 g."),
+        line("egg", "1 egg", LARGE_EGG, "USDA 1 large egg = 50 g. The page says 1 whole egg."),
+        line("vanilla", "1/2 tsp vanilla", TSP_VANILLA / 2, "USDA 1 tsp vanilla = 4.2 g."),
+        line("oats", "2 tbsp oat flour", 2 * CUP_OATS / 16, "The page says blend regular oats if you have no oat flour. USDA rolled-oat tablespoon weight is used, 81 g per cup."),
+        line("baking-powder", "1/2 tsp baking powder", TSP_BP / 2, "USDA 1 tsp baking powder = 4.6 g."),
+        line("cinnamon", "1/4 tsp cinnamon", TSP_CINN / 4, "USDA 1 tsp cinnamon = 2.6 g."),
+        line("blueberries", "2 tbsp blueberries", 2 * CUP_BERRIES / 16, "USDA 1 cup blueberries = 148 g."),
+    ],
+    [
+        {"text": "In a mug, whisk the yogurt, egg, and vanilla.", "grownup": []},
+        {"text": "Stir in the oat flour, baking powder, cinnamon, and blueberries until the batter is smooth.", "grownup": []},
+        {"text": "Ask a grown-up to microwave it until the muffin is puffed and set.", "timerSec": 90, "timerLabel": "90 seconds", "grownup": ["microwave"]},
+        {"text": "The mug is hot. Let it sit a moment, then eat it from the mug.", "grownup": ["microwave"]},
+    ],
+    swaps=[EGG_YOGURT],
+    heat="microwave",
+))
+
+
 def totals(recipe):
     acc = {"kcal": 0.0, "protein": 0.0, "fiber": 0.0, "sugar": 0.0}
     skipped = []

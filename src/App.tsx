@@ -1,8 +1,9 @@
 import { useMemo, useState } from "react"
 import { FoodArt } from "./components/FoodArt.tsx"
-import { ALLERGIES, STICKERS, foodMap, pantryMap, recipes } from "./data/catalog.ts"
+import { ALLERGIES, STICKERS, foodMap, pantryMap, recipes, requiredPantryIds } from "./data/catalog.ts"
 import type { AllergyId } from "./data/types.ts"
 import { planRecipe } from "./lib/match.ts"
+import { formatNutrient } from "./lib/nutrition.ts"
 import { useSaved } from "./lib/storage.ts"
 import { PantryScreen } from "./screens/PantryScreen.tsx"
 import { KidMode, RecipeDetail, RecipeList } from "./screens/RecipeScreens.tsx"
@@ -10,7 +11,7 @@ import { KidMode, RecipeDetail, RecipeList } from "./screens/RecipeScreens.tsx"
 type Page =
   | { name: "home" }
   | { name: "pantry" }
-  | { name: "recipes" }
+  | { name: "recipes"; browse: boolean }
   | { name: "recipe"; id: string }
   | { name: "kid"; id: string }
   | { name: "stickers" }
@@ -20,6 +21,18 @@ export default function App() {
   const { saved, togglePantry, toggleAllergy, toggleFavorite, addMade, setQuiet, setPantry, clearMade } = useSaved()
   const [page, setPage] = useState<Page>({ name: "home" })
   const owned = useMemo(() => new Set(saved.pantry), [saved.pantry])
+  const quick = useMemo(
+    () =>
+      recipes
+        .map((recipe) => ({
+          recipe,
+          count: requiredPantryIds(recipe).length,
+          plan: planRecipe(recipe, owned, saved.allergies, foodMap),
+        }))
+        .filter((item) => item.count >= 2 && item.count <= 4 && item.plan.fit !== "hidden")
+        .sort((a, b) => a.count - b.count || b.plan.perServing.protein - a.plan.perServing.protein),
+    [owned, saved.allergies],
+  )
   const counts = useMemo(() => {
     let now = 0
     let almost = 0
@@ -52,18 +65,31 @@ export default function App() {
             almost={counts.almost}
             made={saved.made.length}
             favorites={saved.favorites.length}
+            quick={quick}
             onPantry={() => setPage({ name: "pantry" })}
-            onRecipes={() => setPage({ name: "recipes" })}
+            onRecipes={() => setPage({ name: "recipes", browse: true })}
+            onOpen={(id) => setPage({ name: "recipe", id })}
             onStickers={() => setPage({ name: "stickers" })}
             onSafety={() => setPage({ name: "safety" })}
           />
         )}
-        {page.name === "pantry" && <PantryScreen selected={saved.pantry} onToggle={togglePantry} onSet={setPantry} />}
+        {page.name === "pantry" && (
+          <PantryScreen
+            selected={saved.pantry}
+            allergies={saved.allergies}
+            onToggle={togglePantry}
+            onSet={setPantry}
+            onOpen={(id) => setPage({ name: "recipe", id })}
+            onShowRecipes={() => setPage({ name: "recipes", browse: false })}
+          />
+        )}
         {page.name === "recipes" && (
           <RecipeList
             pantry={saved.pantry}
             allergies={saved.allergies}
             favorites={saved.favorites}
+            browse={page.browse}
+            onBrowse={() => setPage({ name: "recipes", browse: true })}
             onOpen={(id) => setPage({ name: "recipe", id })}
             onFavorite={toggleFavorite}
           />
@@ -74,7 +100,7 @@ export default function App() {
             pantry={saved.pantry}
             allergies={saved.allergies}
             favorite={saved.favorites.includes(page.id)}
-            onBack={() => setPage({ name: "recipes" })}
+            onBack={() => setPage({ name: "recipes", browse: false })}
             onFavorite={() => toggleFavorite(page.id)}
             onKid={() => setPage({ name: "kid", id: page.id })}
             onMade={(sticker) => addMade({ id: crypto.randomUUID(), recipeId: page.id, sticker, at: Date.now() })}
@@ -102,7 +128,7 @@ export default function App() {
         <ul className="mx-auto grid max-w-5xl grid-cols-4 gap-2">
           <NavButton label="Home" current={page.name === "home"} onClick={() => setPage({ name: "home" })} />
           <NavButton label="Pantry" current={page.name === "pantry"} onClick={() => setPage({ name: "pantry" })} />
-          <NavButton label="Snacks" current={page.name === "recipes" || page.name === "recipe" || page.name === "kid"} onClick={() => setPage({ name: "recipes" })} />
+          <NavButton label="Snacks" current={page.name === "recipes" || page.name === "recipe" || page.name === "kid"} onClick={() => setPage({ name: "recipes", browse: false })} />
           <NavButton label="Stickers" current={page.name === "stickers"} onClick={() => setPage({ name: "stickers" })} />
         </ul>
       </nav>
@@ -125,8 +151,10 @@ function Home({
   almost,
   made,
   favorites,
+  quick,
   onPantry,
   onRecipes,
+  onOpen,
   onStickers,
   onSafety,
 }: {
@@ -134,8 +162,10 @@ function Home({
   almost: number
   made: number
   favorites: number
+  quick: { recipe: { id: string; title: string }; count: number; plan: { perServing: { protein: number; fiber: number }; fit: string; missing: string[] } }[]
   onPantry: () => void
   onRecipes: () => void
+  onOpen: (id: string) => void
   onStickers: () => void
   onSafety: () => void
 }) {
@@ -156,14 +186,37 @@ function Home({
           Pip the banana and Dot the egg help Karthik's kids find a snack from foods already in the kitchen.
         </p>
       </section>
+      <section className="grid gap-3">
+        <h2 className="font-display text-3xl">Quick 3–4 ingredient bakes</h2>
+        {quick.length === 0 ? (
+          <p className="rounded-3xl bg-white p-4 text-lg font-bold">Safety switches are hiding the short recipes. A grown-up can turn one off.</p>
+        ) : (
+          <ul className="flex gap-3 overflow-x-auto pb-1">
+            {quick.map((item) => (
+              <li key={item.recipe.id} className="w-64 shrink-0">
+                <button type="button" onClick={() => onOpen(item.recipe.id)} className="grid h-full w-full gap-2 rounded-3xl bg-white p-4 text-left">
+                  <span className="text-sm font-extrabold uppercase text-berry">{item.count} foods</span>
+                  <span className="font-display text-2xl leading-tight">{item.recipe.title}</span>
+                  <span className="font-extrabold">
+                    {formatNutrient(item.plan.perServing.protein)} g protein · {formatNutrient(item.plan.perServing.fiber)} g fiber
+                  </span>
+                  <span className="font-bold text-ink/70">
+                    {item.plan.fit === "now" ? "You can bake this now." : item.plan.fit === "almost" ? `Need ${item.plan.missing.length === 1 ? pantryMap.get(item.plan.missing[0])?.name : `${item.plan.missing.length} foods`}.` : "Open it to see the foods."}
+                  </span>
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
       <div className="grid gap-3 sm:grid-cols-2">
         <button type="button" onClick={onPantry} className="rounded-[2rem] bg-sun p-5 text-left">
           <p className="font-display text-3xl">Tick the pantry</p>
           <p className="mt-1 text-lg font-bold">Pictures of bananas, oats, yogurt, and the rest.</p>
         </button>
         <button type="button" onClick={onRecipes} className="rounded-[2rem] bg-coral p-5 text-left text-white">
-          <p className="font-display text-3xl">{now} ready now</p>
-          <p className="mt-1 text-lg font-extrabold">{almost} more are one or two foods away.</p>
+          <p className="font-display text-3xl">Start with a recipe</p>
+          <p className="mt-1 text-lg font-extrabold">{now} ready now. {almost} more need one or two foods.</p>
         </button>
       </div>
       <div className="grid grid-cols-2 gap-3">

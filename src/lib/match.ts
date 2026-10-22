@@ -114,7 +114,8 @@ export function planRecipe(
     }
   }
 
-  const fit: Fit = best.missing.length === 0 ? "now" : best.missing.length <= 2 ? "almost" : "later"
+  const haveSome = best.lines.some((line) => pantry.has(line.pantryId))
+  const fit: Fit = best.missing.length === 0 ? "now" : best.missing.length <= 2 && haveSome ? "almost" : "later"
   const total = sumLines(best.lines, foods)
   return {
     fit,
@@ -124,4 +125,28 @@ export function planRecipe(
     math: best.lines.map((line) => lineMath(line, foods)),
     perServing: perServing(total, recipe.servings),
   }
+}
+
+export function bestUnlock(
+  owned: Set<string>,
+  allergies: AllergyId[],
+  foods: Map<string, Food>,
+  choices: { id: string; name: string }[],
+  allRecipes: Recipe[],
+): { id: string; name: string; count: number } | null {
+  const visible = (pantry: Set<string>) =>
+    allRecipes.reduce((count, recipe) => {
+      const fit = planRecipe(recipe, pantry, allergies, foods).fit
+      return fit === "now" || fit === "almost" ? count + 1 : count
+    }, 0)
+  const already = visible(owned)
+  let best: { id: string; name: string; count: number } | null = null
+  for (const choice of choices) {
+    if (owned.has(choice.id)) continue
+    const next = new Set(owned)
+    next.add(choice.id)
+    const count = visible(next) - already
+    if (count > 0 && (!best || count > best.count)) best = { id: choice.id, name: choice.name, count }
+  }
+  return best
 }
