@@ -81,5 +81,5 @@ export function useSaved() {
     setSaved((current) => ({ ...current, made: [] }))
   }
 
-  return { saved, ready, togglePantry, toggleAllergy, toggleFavorite, addMade, setQuiet, setPantry, clearMade }
+  return { saved, togglePantry, toggleAllergy, toggleFavorite, addMade, setQuiet, setPantry, clearMade }
 }

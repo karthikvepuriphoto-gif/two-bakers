@@ -35,7 +35,7 @@ Protein, fiber, calories, and sugar are not copied from those pages. They are co
 
 Open **How we counted** on any snack to see the FDC id, the gram weight, and the multiplication. A few foods are called out when USDA has no exact match (rice paper wrappers, oat flour by the cup, Greek yogurt by the cup, flavored protein powder).
 
-Allergy switches hide peanut, dairy, egg, and gluten recipes. Oats count as a gluten risk. Chocolate chips count as dairy. A swap the author wrote, or yogurt in place of an egg, can keep a recipe if the swapped version is safe.
+Allergy switches hide peanut, dairy, egg, and gluten recipes. Oats count as a gluten risk. Chocolate chips count as dairy. A written swap does not bring a hidden recipe back, because the steps still name the original food. Yogurt in place of an egg is only offered when eggs are allowed and the egg is simply missing.
 
 ## Move it to GitHub Pages later
 

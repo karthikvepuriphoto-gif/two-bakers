@@ -71,6 +71,20 @@ export function planRecipe(
   allergies: AllergyId[],
   foods: Map<string, Food>,
 ): Plan {
+  // Hide the written recipe. A swap does not bring it back: kid mode still names the original food.
+  if (isUnsafe(recipe.lines, foods, allergies)) {
+    const lines = recipe.lines.filter((line) => !line.optional)
+    const total = sumLines(lines, foods)
+    return {
+      fit: "hidden",
+      missing: [],
+      swaps: [],
+      lines,
+      math: lines.map((line) => lineMath(line, foods)),
+      perServing: perServing(total, recipe.servings),
+    }
+  }
+
   let best: { missing: string[]; swaps: Swap[]; lines: RecipeLine[] } | null = null
   for (const combo of combos(recipe.swaps)) {
     const lines = combo.length === 0 ? recipe.lines.filter((line) => !line.optional) : applySwaps(recipe.lines, combo, foods)

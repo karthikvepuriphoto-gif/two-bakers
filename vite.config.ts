@@ -14,7 +14,7 @@ export default defineConfig({
         name: "Two Bakers",
         short_name: "Two Bakers",
         description: "Kid snack recipes for Karthik's daughter and son, counted from USDA FoodData Central.",
-        theme_color: "#d94b32",
+        theme_color: "#c13a22",
         background_color: "#fff6ea",
         display: "standalone",
         start_url: "/",

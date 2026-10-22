@@ -268,7 +268,7 @@ function Safety({
         <p className="mt-2 font-bold">
           Protein, fiber, calories, and sugar are counted from USDA FoodData Central, SR Legacy, April 2018. We use the gram weight of each ingredient, multiply by the USDA amount per 100 grams, add them up, and divide by the servings. Baking can change weight as water leaves, so this is the ingredient tally, not a lab test.
         </p>
-        <p className="mt-2 font-bold">Chocolate chips are treated as dairy. Oats are treated as a gluten risk unless a grown-up knows the oats are certified gluten-free. Rice paper has no USDA record here, so those sheets are left out of the bagel numbers.</p>
+        <p className="mt-2 font-bold">Chocolate chips are treated as dairy. Oats are treated as a gluten risk unless a grown-up knows the oats are certified gluten-free. A swap on the page does not keep a recipe. The steps still name the original food, so the whole recipe stays hidden. Rice paper has no USDA record here, so those sheets are left out of the bagel numbers.</p>
       </section>
       <div className="grid gap-2 sm:grid-cols-2">
         <button type="button" onClick={onClearPantry} className="rounded-full bg-white px-4 py-3 font-extrabold">Clear the pantry ticks</button>
