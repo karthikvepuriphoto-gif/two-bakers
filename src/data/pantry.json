@@ -1,0 +1,248 @@
+[
+  {
+    "id": "banana",
+    "name": "Bananas",
+    "group": "Fruit",
+    "hint": "The spottier, the sweeter"
+  },
+  {
+    "id": "strawberries",
+    "name": "Strawberries",
+    "group": "Fruit",
+    "hint": "Fresh berries"
+  },
+  {
+    "id": "blueberries",
+    "name": "Blueberries",
+    "group": "Fruit",
+    "hint": "Fresh berries"
+  },
+  {
+    "id": "peanut-butter",
+    "name": "Peanut butter",
+    "group": "Jars",
+    "hint": "Creamy or crunchy"
+  },
+  {
+    "id": "powdered-peanut",
+    "name": "Powdered peanut butter",
+    "group": "Jars",
+    "hint": "Like PB2"
+  },
+  {
+    "id": "almond-butter",
+    "name": "Almond butter",
+    "group": "Jars",
+    "hint": "A nut butter"
+  },
+  {
+    "id": "sunflower-butter",
+    "name": "Sunflower butter",
+    "group": "Jars",
+    "hint": "A peanut-free spread"
+  },
+  {
+    "id": "honey",
+    "name": "Honey",
+    "group": "Jars",
+    "hint": "Not for babies under 1"
+  },
+  {
+    "id": "maple",
+    "name": "Maple syrup",
+    "group": "Jars",
+    "hint": "The real syrup"
+  },
+  {
+    "id": "greek-yogurt",
+    "name": "Greek yogurt",
+    "group": "Cold",
+    "hint": "Plain or vanilla"
+  },
+  {
+    "id": "yogurt",
+    "name": "Yogurt",
+    "group": "Cold",
+    "hint": "A yogurt cup"
+  },
+  {
+    "id": "cottage-cheese",
+    "name": "Cottage cheese",
+    "group": "Cold",
+    "hint": "Curds in a tub"
+  },
+  {
+    "id": "milk",
+    "name": "Milk",
+    "group": "Cold",
+    "hint": "From the fridge"
+  },
+  {
+    "id": "almond-milk",
+    "name": "Almond milk",
+    "group": "Cold",
+    "hint": "A carton"
+  },
+  {
+    "id": "egg",
+    "name": "Eggs",
+    "group": "Cold",
+    "hint": "In the carton"
+  },
+  {
+    "id": "mozzarella",
+    "name": "Mozzarella",
+    "group": "Cold",
+    "hint": "Shredded cheese"
+  },
+  {
+    "id": "butter",
+    "name": "Butter",
+    "group": "Cold",
+    "hint": "A stick of butter"
+  },
+  {
+    "id": "oats",
+    "name": "Oats",
+    "group": "Baking",
+    "hint": "Rolled or quick"
+  },
+  {
+    "id": "flour",
+    "name": "Flour",
+    "group": "Baking",
+    "hint": "All-purpose"
+  },
+  {
+    "id": "whole-wheat",
+    "name": "Whole-wheat flour",
+    "group": "Baking",
+    "hint": "Brown flour"
+  },
+  {
+    "id": "almond-flour",
+    "name": "Almond flour",
+    "group": "Baking",
+    "hint": "Ground almonds"
+  },
+  {
+    "id": "baking-powder",
+    "name": "Baking powder",
+    "group": "Baking",
+    "hint": "The can that makes things rise"
+  },
+  {
+    "id": "baking-soda",
+    "name": "Baking soda",
+    "group": "Baking",
+    "hint": "The orange box"
+  },
+  {
+    "id": "vanilla",
+    "name": "Vanilla",
+    "group": "Baking",
+    "hint": "The little brown bottle"
+  },
+  {
+    "id": "cinnamon",
+    "name": "Cinnamon",
+    "group": "Baking",
+    "hint": "Warm spice"
+  },
+  {
+    "id": "salt",
+    "name": "Salt",
+    "group": "Baking",
+    "hint": "A pinch"
+  },
+  {
+    "id": "cocoa",
+    "name": "Cocoa powder",
+    "group": "Baking",
+    "hint": "Unsweetened cocoa"
+  },
+  {
+    "id": "brown-sugar",
+    "name": "Brown sugar",
+    "group": "Baking",
+    "hint": "Soft brown sugar"
+  },
+  {
+    "id": "protein-powder",
+    "name": "Protein powder",
+    "group": "Baking",
+    "hint": "A scoop jar"
+  },
+  {
+    "id": "chocolate",
+    "name": "Chocolate chips",
+    "group": "Sweet",
+    "hint": "Chips or a bar"
+  },
+  {
+    "id": "raisins",
+    "name": "Raisins",
+    "group": "Sweet",
+    "hint": "Dried grapes"
+  },
+  {
+    "id": "coconut",
+    "name": "Coconut",
+    "group": "Sweet",
+    "hint": "Flakes or shredded"
+  },
+  {
+    "id": "granola",
+    "name": "Granola",
+    "group": "Sweet",
+    "hint": "Crunchy clusters"
+  },
+  {
+    "id": "walnuts",
+    "name": "Walnuts",
+    "group": "Crunch",
+    "hint": "Chopped nuts"
+  },
+  {
+    "id": "coconut-oil",
+    "name": "Coconut oil",
+    "group": "Crunch",
+    "hint": "In a jar"
+  },
+  {
+    "id": "olive-oil",
+    "name": "Olive oil",
+    "group": "Crunch",
+    "hint": "Cooking oil"
+  },
+  {
+    "id": "bacon",
+    "name": "Bacon",
+    "group": "Savory",
+    "hint": "Cooked strips"
+  },
+  {
+    "id": "rice-paper",
+    "name": "Rice paper",
+    "group": "Savory",
+    "hint": "Round spring-roll sheets"
+  },
+  {
+    "id": "oregano",
+    "name": "Oregano",
+    "group": "Savory",
+    "hint": "Dried leaves"
+  },
+  {
+    "id": "onion-powder",
+    "name": "Onion powder",
+    "group": "Savory",
+    "hint": "A spice jar"
+  },
+  {
+    "id": "garlic-powder",
+    "name": "Garlic powder",
+    "group": "Savory",
+    "hint": "A spice jar"
+  }
+]

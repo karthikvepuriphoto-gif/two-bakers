@@ -1,0 +1,4114 @@
+[
+  {
+    "id": "quaker-pb-banana-bites",
+    "title": "Peanut butter banana bites",
+    "category": "Bites",
+    "blurb": "Five ingredients, no oven, and a banana does the sweetening.",
+    "servings": 24,
+    "servingLabel": "1 bite",
+    "minutes": 40,
+    "heat": "none",
+    "sourceName": "Quaker Oats",
+    "sourceUrl": "https://www.quakeroats.com/cooking-and-recipes/peanut-butter-and-banana-energy-bites",
+    "author": "Quaker Oats",
+    "lines": [
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "2 1/2 cups oats",
+        "grams": 202.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup dry oats = 81 g."
+      },
+      {
+        "foodId": "cinnamon",
+        "pantryId": "cinnamon",
+        "amount": "1 tsp cinnamon",
+        "grams": 2.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp ground cinnamon = 2.6 g."
+      },
+      {
+        "foodId": "banana",
+        "pantryId": "banana",
+        "amount": "1 cup mashed banana",
+        "grams": 225.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup mashed banana = 225 g. Quaker says that is about 2 large bananas."
+      },
+      {
+        "foodId": "pb-salted",
+        "pantryId": "peanut-butter",
+        "amount": "1/4 cup peanut butter",
+        "grams": 64.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup peanut butter = 258 g."
+      },
+      {
+        "foodId": "honey",
+        "pantryId": "honey",
+        "amount": "2 tbsp honey",
+        "grams": 42.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tbsp honey = 21 g."
+      }
+    ],
+    "swaps": [],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Wash your hands. Put the oats and cinnamon in a big bowl. Stir.",
+        "grownup": []
+      },
+      {
+        "text": "Ask a grown-up to help mash the banana. Add the banana, peanut butter, and honey. Stir until every oat looks sticky.",
+        "grownup": []
+      },
+      {
+        "text": "Roll the mix into 24 little balls, about the size of a big marble.",
+        "grownup": []
+      },
+      {
+        "text": "Cover the bowl and let the bites get cold in the fridge.",
+        "timerSec": 1800,
+        "timerLabel": "30 minutes",
+        "grownup": []
+      }
+    ]
+  },
+  {
+    "id": "yummy-toddler-energy-balls",
+    "title": "Peanut butter oatmeal balls",
+    "category": "Bites",
+    "blurb": "Cookie-dough bites from Yummy Toddler Food. Honey is the glue.",
+    "servings": 16,
+    "servingLabel": "1 ball",
+    "minutes": 20,
+    "heat": "microwave",
+    "sourceName": "Yummy Toddler Food",
+    "sourceUrl": "https://www.yummytoddlerfood.com/oatmeal-raisin-peanut-butter-energy-balls/",
+    "author": "Amy Palanjian",
+    "lines": [
+      {
+        "foodId": "pb-unsalted",
+        "pantryId": "peanut-butter",
+        "amount": "1/2 cup peanut butter",
+        "grams": 129.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup natural peanut butter = 258 g. Amy uses unsweetened creamy peanut butter."
+      },
+      {
+        "foodId": "honey",
+        "pantryId": "honey",
+        "amount": "1/4 cup honey",
+        "grams": 84.75,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup honey = 339 g."
+      },
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "1 cup rolled oats",
+        "grams": 81.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup rolled oats = 81 g. Amy grinds them a little, which does not change the weight."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "1 tsp vanilla",
+        "grams": 4.2,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla extract = 4.2 g."
+      },
+      {
+        "foodId": "raisins",
+        "pantryId": "raisins",
+        "amount": "1/4 cup raisins",
+        "grams": 36.25,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup raisins, not packed = 145 g. Amy says they are optional but recommended. They are in her ingredient list, so they are counted."
+      }
+    ],
+    "swaps": [],
+    "unquantified": [
+      "1 tsp chia seeds. SR Legacy only publishes chia by the ounce (28.35 g), not by the teaspoon, so chia is left out of the numbers. Amy says you can skip it."
+    ],
+    "steps": [
+      {
+        "text": "Ask a grown-up to warm the peanut butter and honey for a few seconds so they stir easily.",
+        "grownup": [
+          "microwave"
+        ]
+      },
+      {
+        "text": "Pour that into a bowl. Add the oats, vanilla, and raisins. Stir, then squish with clean hands if the spoon gets stuck.",
+        "grownup": []
+      },
+      {
+        "text": "Scoop tablespoon-size mounds and roll 16 balls.",
+        "grownup": []
+      },
+      {
+        "text": "Eat, or keep them in a covered box in the fridge.",
+        "grownup": []
+      }
+    ]
+  },
+  {
+    "id": "best-ideas-pb-balls",
+    "title": "No-bake snack bites",
+    "category": "Bites",
+    "blurb": "Oats, peanut butter, honey, and a pocket of chocolate, coconut, and raisins.",
+    "servings": 20,
+    "servingLabel": "1 bite",
+    "minutes": 40,
+    "heat": "none",
+    "sourceName": "The Best Ideas for Kids",
+    "sourceUrl": "https://www.thebestideasforkids.com/no-bake-peanut-butter-snack-bites/",
+    "author": "The Best Ideas for Kids",
+    "lines": [
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "1 cup rolled oats",
+        "grams": 81.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup rolled oats = 81 g."
+      },
+      {
+        "foodId": "pb-salted",
+        "pantryId": "peanut-butter",
+        "amount": "1/2 cup peanut butter",
+        "grams": 129.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup peanut butter = 258 g."
+      },
+      {
+        "foodId": "honey",
+        "pantryId": "honey",
+        "amount": "1/4 cup honey",
+        "grams": 84.75,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup honey = 339 g. The page says honey is only for kids over 1."
+      },
+      {
+        "foodId": "chips",
+        "pantryId": "chocolate",
+        "amount": "1/4 cup mini chocolate chips",
+        "grams": 43.25,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup mini chocolate chips = 173 g."
+      },
+      {
+        "foodId": "raisins",
+        "pantryId": "raisins",
+        "amount": "1/4 cup raisins",
+        "grams": 36.25,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup raisins, not packed = 145 g."
+      },
+      {
+        "foodId": "coconut",
+        "pantryId": "coconut",
+        "amount": "1/4 cup coconut flakes",
+        "grams": 23.25,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Cup weight 93 g is from sweetened shredded coconut. Nutrients are unsweetened dried coconut."
+      }
+    ],
+    "swaps": [],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Put the peanut butter and honey in a bowl. Stir them together.",
+        "grownup": []
+      },
+      {
+        "text": "Add the oats, chocolate chips, raisins, and coconut. Mix until you do not see dry oats.",
+        "grownup": []
+      },
+      {
+        "text": "Roll 20 balls. The page uses about 2 tablespoons of mix for each one.",
+        "grownup": []
+      },
+      {
+        "text": "Chill them until they feel firm.",
+        "timerSec": 1800,
+        "timerLabel": "30 minutes",
+        "grownup": []
+      }
+    ]
+  },
+  {
+    "id": "marisa-pb-banana-cookies",
+    "title": "Peanut butter banana breakfast cookies",
+    "category": "Cookies",
+    "blurb": "Three ingredients. Mash, mix, bake.",
+    "servings": 6,
+    "servingLabel": "1 serving",
+    "minutes": 15,
+    "heat": "oven",
+    "sourceName": "Marisa Moore Nutrition",
+    "sourceUrl": "https://marisamoore.com/peanut-butter-banana-breakfast-cookies/",
+    "author": "Marisa Moore, RDN",
+    "lines": [
+      {
+        "foodId": "banana",
+        "pantryId": "banana",
+        "amount": "2 small bananas",
+        "grams": 202.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 small banana = 101 g. Marisa's card says 6 servings, and also says you can roll 10 to 12 small cookies or 5 to 6 large ones."
+      },
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "1 cup old-fashioned oats",
+        "grams": 81.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup oats = 81 g."
+      },
+      {
+        "foodId": "pb-unsalted",
+        "pantryId": "peanut-butter",
+        "amount": "1/4 cup natural peanut butter",
+        "grams": 64.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup peanut butter = 258 g."
+      }
+    ],
+    "swaps": [],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Ask a grown-up to heat the oven to 350\u00b0F. Lightly oil a baking sheet.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Mash the bananas in a bowl. Add the oats and peanut butter. Mix.",
+        "grownup": []
+      },
+      {
+        "text": "Roll and flatten the cookies. Marisa makes 5 or 6 large ones for the 6 servings on her card.",
+        "grownup": []
+      },
+      {
+        "text": "Bake until the cookies look golden.",
+        "timerSec": 720,
+        "timerLabel": "12 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Let a grown-up take the pan out. Cool a little before you grab one.",
+        "grownup": [
+          "oven"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "plant-kitchen-pb-cookies",
+    "title": "3-ingredient banana oat cookies",
+    "category": "Cookies",
+    "blurb": "No egg, no milk, and no extra sugar. The banana is the sweet part.",
+    "servings": 8,
+    "servingLabel": "1 cookie",
+    "minutes": 22,
+    "heat": "oven",
+    "sourceName": "The Conscious Plant Kitchen",
+    "sourceUrl": "https://www.theconsciousplantkitchen.com/peanut-butter-banana-oatmeal-cookies/",
+    "author": "Carine Claudepierre",
+    "lines": [
+      {
+        "foodId": "banana",
+        "pantryId": "banana",
+        "amount": "1/2 cup mashed banana",
+        "grams": 112.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Carine says 1 medium banana equals 1/2 cup mashed. USDA 1 cup mashed = 225 g, so half is 112.5 g. A USDA medium banana is 118 g."
+      },
+      {
+        "foodId": "pb-unsalted",
+        "pantryId": "peanut-butter",
+        "amount": "1/4 cup unsalted peanut butter",
+        "grams": 64.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup peanut butter = 258 g."
+      },
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "1 1/4 cups rolled oats",
+        "grams": 101.25,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup oats = 81 g."
+      }
+    ],
+    "swaps": [],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Ask a grown-up to heat the oven to 350\u00b0F. Line a cookie sheet with parchment paper.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Mash the banana. Check that you have about 1/2 cup. Stir in the peanut butter and oats.",
+        "grownup": []
+      },
+      {
+        "text": "Make 8 balls. Flatten them with a slightly oily hand. They will not spread in the oven.",
+        "grownup": []
+      },
+      {
+        "text": "Bake until the edges look golden.",
+        "timerSec": 900,
+        "timerLabel": "15 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Cool on a rack. Carine waits about 20 minutes. They taste sweeter once they cool.",
+        "timerSec": 1200,
+        "timerLabel": "20 minutes",
+        "grownup": [
+          "oven"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "skinnytaste-banana-cookies",
+    "title": "Banana oatmeal walnut cookies",
+    "category": "Cookies",
+    "blurb": "Gina's three-ingredient cookies. Two of them make one serving.",
+    "servings": 8,
+    "servingLabel": "2 cookies",
+    "minutes": 25,
+    "heat": "oven",
+    "sourceName": "Skinnytaste",
+    "sourceUrl": "https://www.skinnytaste.com/healthy-cookies/",
+    "author": "Gina Homolka",
+    "lines": [
+      {
+        "foodId": "banana",
+        "pantryId": "banana",
+        "amount": "2 medium bananas",
+        "grams": 236.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 medium banana = 118 g."
+      },
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "1 cup quick oats",
+        "grams": 81.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup dry oats = 81 g. Gina says rolled oats can stand in for quick oats."
+      },
+      {
+        "foodId": "walnuts",
+        "pantryId": "walnuts",
+        "amount": "1/4 cup crushed walnuts",
+        "grams": 29.25,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup chopped walnuts = 117 g."
+      }
+    ],
+    "swaps": [],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Ask a grown-up to heat the oven to 350\u00b0F. Set out a cookie sheet.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Mash the bananas. Stir in the oats. Fold in the walnuts.",
+        "grownup": []
+      },
+      {
+        "text": "Drop tablespoon mounds on the sheet. Gina's batch makes 16 cookies.",
+        "grownup": []
+      },
+      {
+        "text": "Bake.",
+        "timerSec": 900,
+        "timerLabel": "15 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Cool before you eat. A serving is 2 cookies.",
+        "grownup": [
+          "oven"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "power-hungry-protein-cookies",
+    "title": "Banana oat protein cookies",
+    "category": "Cookies",
+    "blurb": "Four ingredients and a scoop of protein powder. Camilla's batch makes 20 cookies.",
+    "servings": 20,
+    "servingLabel": "1 cookie",
+    "minutes": 20,
+    "heat": "oven",
+    "sourceName": "Power Hungry",
+    "sourceUrl": "https://www.powerhungry.com/2015/01/15/banana-oat-protein-cookies/",
+    "author": "Camilla",
+    "lines": [
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "1 1/2 cups rolled oats",
+        "grams": 121.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup oats = 81 g."
+      },
+      {
+        "foodId": "banana",
+        "pantryId": "banana",
+        "amount": "1 cup mashed banana",
+        "grams": 225.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup mashed banana = 225 g. Camilla says that is about 2 to 3 large bananas."
+      },
+      {
+        "foodId": "almond-butter",
+        "pantryId": "almond-butter",
+        "amount": "1/4 cup almond butter",
+        "grams": 62.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup almond butter = 250 g."
+      },
+      {
+        "foodId": "soy-protein",
+        "pantryId": "protein-powder",
+        "amount": "1/4 cup plant protein powder",
+        "grams": 24.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Camilla does not give grams. 1/4 cup is 24 g because USDA whey protein powder lists 1/3 cup = 32 g (1 cup = 96 g). Nutrients are soy protein powder, the plant-protein record."
+      }
+    ],
+    "swaps": [
+      {
+        "id": "almond-to-pb",
+        "removesPantry": "almond-butter",
+        "label": "Camilla says peanut butter can replace the almond butter, same amount.",
+        "source": "Power Hungry recipe notes.",
+        "author": true,
+        "sameGrams": true,
+        "adds": [
+          {
+            "foodId": "pb-unsalted",
+            "gramsEach": null
+          }
+        ]
+      },
+      {
+        "id": "almond-to-sun",
+        "removesPantry": "almond-butter",
+        "label": "Camilla says sunflower seed butter can replace the almond butter, same amount.",
+        "source": "Power Hungry recipe notes.",
+        "author": true,
+        "sameGrams": true,
+        "adds": [
+          {
+            "foodId": "sunflower-butter",
+            "gramsEach": null
+          }
+        ]
+      }
+    ],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Ask a grown-up to heat the oven to 350\u00b0F. Line a baking sheet.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Ask a grown-up to grind half of the oats (3/4 cup) into a coarse meal.",
+        "grownup": []
+      },
+      {
+        "text": "Stir the mashed banana and almond butter. Add all the oats and the protein powder. Mix.",
+        "grownup": []
+      },
+      {
+        "text": "Roll 1-inch balls and flatten them a little. They do not spread.",
+        "grownup": []
+      },
+      {
+        "text": "Bake until the edges are golden. Camilla says 11 to 15 minutes.",
+        "timerSec": 780,
+        "timerLabel": "13 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Move the cookies to a rack and let them cool.",
+        "grownup": [
+          "oven"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "taste-cottage-cookie-dough",
+    "title": "Cottage cheese cookie dough",
+    "category": "Bites",
+    "blurb": "The viral edible dough. No raw flour. It stays in the fridge.",
+    "servings": 4,
+    "servingLabel": "1 serving",
+    "minutes": 10,
+    "heat": "none",
+    "sourceName": "Taste of Home",
+    "sourceUrl": "https://www.tasteofhome.com/recipes/cottage-cheese-cookie-dough/",
+    "author": "Taste of Home Test Kitchen",
+    "lines": [
+      {
+        "foodId": "cottage-4",
+        "pantryId": "cottage-cheese",
+        "amount": "1 cup 4% cottage cheese",
+        "grams": 225.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup small-curd creamed cottage cheese, not packed = 225 g."
+      },
+      {
+        "foodId": "maple",
+        "pantryId": "maple",
+        "amount": "3 tbsp maple syrup",
+        "grams": 60.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tbsp maple syrup = 20 g."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "1 tsp vanilla",
+        "grams": 4.2,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      },
+      {
+        "foodId": "almond-flour",
+        "pantryId": "almond-flour",
+        "amount": "1 1/2 cups almond flour",
+        "grams": 142.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "1 cup ground almonds = 95 g on FDC 170567. Nutrients are blanched almonds, FDC 170568."
+      },
+      {
+        "foodId": "whey",
+        "pantryId": "protein-powder",
+        "amount": "1/4 cup vanilla whey protein powder",
+        "grams": 24.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "1/4 cup = 24 g from the whey powder cup fraction. Nutrients are unflavored whey-based powder, not a sweetened vanilla tub."
+      },
+      {
+        "foodId": "chips",
+        "pantryId": "chocolate",
+        "amount": "1/2 cup mini semisweet chocolate chips",
+        "grams": 86.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup mini chips = 173 g."
+      }
+    ],
+    "swaps": [],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Ask a grown-up to blend the cottage cheese, maple syrup, and vanilla until smooth.",
+        "grownup": []
+      },
+      {
+        "text": "Scrape it into a bowl. Stir in the almond flour and protein powder.",
+        "grownup": []
+      },
+      {
+        "text": "Fold in the chocolate chips. Taste. Add a tiny pinch of salt only if a grown-up says it needs it.",
+        "grownup": []
+      },
+      {
+        "text": "Keep it in a covered container in the fridge. Scoop and eat.",
+        "grownup": []
+      }
+    ]
+  },
+  {
+    "id": "bird-flatbread",
+    "title": "Cottage cheese flatbread",
+    "category": "Flatbread",
+    "blurb": "The viral two-main-ingredient flatbread. One wrap, a lot of protein.",
+    "servings": 1,
+    "servingLabel": "1 flatbread",
+    "minutes": 30,
+    "heat": "oven",
+    "sourceName": "Eating Bird Food",
+    "sourceUrl": "https://www.eatingbirdfood.com/cottage-cheese-flatbread/",
+    "author": "Brittany Mullins",
+    "lines": [
+      {
+        "foodId": "cottage-4",
+        "pantryId": "cottage-cheese",
+        "amount": "1 cup full-fat cottage cheese",
+        "grams": 225.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup small-curd creamed cottage cheese = 225 g. Brittany uses Good Culture full-fat."
+      },
+      {
+        "foodId": "egg",
+        "pantryId": "egg",
+        "amount": "2 eggs",
+        "grams": 100.0,
+        "count": 2,
+        "optional": false,
+        "gramNote": "USDA 1 large egg = 50 g."
+      },
+      {
+        "foodId": "oregano",
+        "pantryId": "oregano",
+        "amount": "1 tsp dried oregano",
+        "grams": 1.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp dried oregano leaves = 1 g."
+      },
+      {
+        "foodId": "onion-powder",
+        "pantryId": "onion-powder",
+        "amount": "1/4 tsp onion powder",
+        "grams": 0.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp onion powder = 2.4 g."
+      },
+      {
+        "foodId": "garlic-powder",
+        "pantryId": "garlic-powder",
+        "amount": "1/4 tsp garlic powder",
+        "grams": 0.78,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp garlic powder = 3.1 g."
+      }
+    ],
+    "swaps": [],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Ask a grown-up to heat the oven to 350\u00b0F.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Blend the cottage cheese, eggs, oregano, onion powder, and garlic powder until smooth.",
+        "grownup": []
+      },
+      {
+        "text": "Line a small sheet pan with parchment. A grown-up sprays it. Pour the mix on and spread it thin.",
+        "grownup": []
+      },
+      {
+        "text": "Bake until it is cooked through and golden in spots.",
+        "timerSec": 1500,
+        "timerLabel": "25 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Cool a few minutes. Peel it off the paper. Fill it, roll it, and cut it in half.",
+        "grownup": [
+          "knife"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "urban-farmie-bark",
+    "title": "Cottage cheese berry bark",
+    "category": "Bark",
+    "blurb": "A frozen bark with cottage cheese, yogurt, berries, and coconut.",
+    "servings": 6,
+    "servingLabel": "1 serving",
+    "minutes": 15,
+    "heat": "none",
+    "sourceName": "Urban Farmie",
+    "sourceUrl": "https://urbanfarmie.com/cottage-cheese-bark/",
+    "author": "Shruthi Baskaran-Makanju",
+    "lines": [
+      {
+        "foodId": "cottage-4",
+        "pantryId": "cottage-cheese",
+        "amount": "2 cups whole-milk cottage cheese",
+        "grams": 450.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup small-curd creamed cottage cheese = 225 g."
+      },
+      {
+        "foodId": "greek-vanilla-low",
+        "pantryId": "greek-yogurt",
+        "amount": "1 cup vanilla Greek yogurt",
+        "grams": 226.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "No USDA cup for Greek yogurt. 1 cup = 226 g from Ambitious Kitchen's printed 1/2 cup = 113 g. Shruthi does not name a fat level, so low-fat vanilla Greek yogurt is used."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "1 tsp vanilla",
+        "grams": 4.2,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      },
+      {
+        "foodId": "honey",
+        "pantryId": "honey",
+        "amount": "2 tbsp honey",
+        "grams": 42.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tbsp honey = 21 g."
+      },
+      {
+        "foodId": "strawberries",
+        "pantryId": "strawberries",
+        "amount": "1 cup sliced strawberries",
+        "grams": 166.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup sliced strawberries = 166 g."
+      },
+      {
+        "foodId": "blueberries",
+        "pantryId": "blueberries",
+        "amount": "1 cup blueberries",
+        "grams": 148.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup blueberries = 148 g."
+      },
+      {
+        "foodId": "coconut",
+        "pantryId": "coconut",
+        "amount": "1/2 cup unsweetened shredded coconut",
+        "grams": 46.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Cup weight from sweetened shredded coconut. Nutrients are unsweetened."
+      }
+    ],
+    "swaps": [],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Line a tray with parchment paper. Make sure it fits in the freezer.",
+        "grownup": []
+      },
+      {
+        "text": "Blend the cottage cheese, yogurt, vanilla, and honey until completely smooth.",
+        "grownup": []
+      },
+      {
+        "text": "Pat the berries dry. Fold them in with a spoon so you see streaks of color.",
+        "grownup": []
+      },
+      {
+        "text": "Spread the mix about as thick as a pencil. Sprinkle the coconut on top.",
+        "grownup": []
+      },
+      {
+        "text": "Freeze until solid.",
+        "timerSec": 14400,
+        "timerLabel": "4 hours",
+        "grownup": []
+      },
+      {
+        "text": "Break the bark into pieces. Eat it frozen.",
+        "grownup": []
+      }
+    ]
+  },
+  {
+    "id": "daisybeet-muffins",
+    "title": "Greek yogurt banana oat muffins",
+    "category": "Muffins",
+    "blurb": "Fluffy muffins with a whole cup of Greek yogurt. A dietitian's recipe.",
+    "servings": 12,
+    "servingLabel": "1 muffin",
+    "minutes": 25,
+    "heat": "oven",
+    "sourceName": "Daisybeet",
+    "sourceUrl": "https://www.daisybeet.com/healthy-banana-oat-muffins-with-greek-yogurt/",
+    "author": "Alex Aldeborgh, RD",
+    "lines": [
+      {
+        "foodId": "banana",
+        "pantryId": "banana",
+        "amount": "2 very ripe bananas",
+        "grams": 236.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Alex says very ripe bananas and does not give a size. USDA medium banana = 118 g is used for each."
+      },
+      {
+        "foodId": "greek-lowfat",
+        "pantryId": "greek-yogurt",
+        "amount": "1 cup plain Greek yogurt",
+        "grams": 226.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Alex allows 2% or 5%. Low-fat (2%) Greek yogurt is counted. 1 cup = 226 g from a published 1/2 cup = 113 g, because SR Legacy has no Greek yogurt cup."
+      },
+      {
+        "foodId": "egg",
+        "pantryId": "egg",
+        "amount": "1 large egg",
+        "grams": 50.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 large egg = 50 g."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "1 tsp vanilla",
+        "grams": 4.2,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      },
+      {
+        "foodId": "brown-sugar",
+        "pantryId": "brown-sugar",
+        "amount": "1/2 cup light brown sugar",
+        "grams": 110.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 packed cup brown sugar = 220 g. Alex does not say packed. Packed is used."
+      },
+      {
+        "foodId": "flour",
+        "pantryId": "flour",
+        "amount": "1 1/2 cups all-purpose flour",
+        "grams": 187.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup all-purpose flour = 125 g."
+      },
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "1/3 cup rolled oats",
+        "grams": 27.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA lists 1/3 cup oats = 27 g."
+      },
+      {
+        "foodId": "cinnamon",
+        "pantryId": "cinnamon",
+        "amount": "1 tsp cinnamon",
+        "grams": 2.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp cinnamon = 2.6 g."
+      },
+      {
+        "foodId": "baking-powder",
+        "pantryId": "baking-powder",
+        "amount": "1 tsp baking powder",
+        "grams": 4.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp baking powder = 4.6 g."
+      },
+      {
+        "foodId": "baking-soda",
+        "pantryId": "baking-soda",
+        "amount": "1 tsp baking soda",
+        "grams": 4.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp baking soda = 4.6 g."
+      },
+      {
+        "foodId": "salt",
+        "pantryId": "salt",
+        "amount": "1/2 tsp salt",
+        "grams": 3.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp table salt = 6 g. Salt adds no calories, protein, fiber, or sugar in this record."
+      }
+    ],
+    "swaps": [
+      {
+        "id": "egg-yogurt",
+        "removesPantry": "egg",
+        "label": "No egg? Use 1/4 cup plain Greek yogurt for each egg.",
+        "source": "A common baking swap. The recipe writer did not test this version. Counted as low-fat plain Greek yogurt, 56.5 g per egg, from a published 1/2 cup = 113 g.",
+        "author": false,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "greek-lowfat",
+            "gramsEach": 56.5
+          }
+        ]
+      }
+    ],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Ask a grown-up to heat the oven to 425\u00b0F. Line a muffin tin.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Mash the bananas. Stir in the yogurt, egg, vanilla, and brown sugar.",
+        "grownup": []
+      },
+      {
+        "text": "In another bowl, whisk the flour, oats, cinnamon, baking powder, baking soda, and salt.",
+        "grownup": []
+      },
+      {
+        "text": "Pour the wet mix into the dry mix. Stir just until you do not see dry flour. The batter is thick.",
+        "grownup": []
+      },
+      {
+        "text": "Fill the cups almost to the top.",
+        "grownup": []
+      },
+      {
+        "text": "Bake 5 minutes at 425\u00b0F. Then a grown-up turns the oven down to 350\u00b0F.",
+        "timerSec": 300,
+        "timerLabel": "5 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Bake until a toothpick comes out clean. Alex says another 8 to 12 minutes.",
+        "timerSec": 600,
+        "timerLabel": "10 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Cool a few minutes before you pick one up.",
+        "grownup": [
+          "oven"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bethenny-bagels",
+    "title": "Cottage cheese bagels",
+    "category": "Bagels",
+    "blurb": "Four bagels from cottage cheese, flour, and baking powder.",
+    "servings": 4,
+    "servingLabel": "1 bagel",
+    "minutes": 35,
+    "heat": "oven",
+    "sourceName": "Bethenny",
+    "sourceUrl": "https://bethenny.com/blogs/recipes/bethenny-cottage-cheese-bagel-recipe",
+    "author": "Bethenny Frankel",
+    "lines": [
+      {
+        "foodId": "cottage-4",
+        "pantryId": "cottage-cheese",
+        "amount": "1 1/4 cups blended cottage cheese",
+        "grams": 281.25,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Bethenny says regular cottage cheese, blended. USDA small-curd creamed cup = 225 g."
+      },
+      {
+        "foodId": "flour",
+        "pantryId": "flour",
+        "amount": "1 cup all-purpose flour",
+        "grams": 125.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup all-purpose flour = 125 g."
+      },
+      {
+        "foodId": "baking-powder",
+        "pantryId": "baking-powder",
+        "amount": "1 1/2 tsp baking powder",
+        "grams": 6.9,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp baking powder = 4.6 g."
+      },
+      {
+        "foodId": "egg",
+        "pantryId": "egg",
+        "amount": "1 egg, for the wash",
+        "grams": 50.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 large egg = 50 g. The wash is brushed on and baked, so the egg is counted."
+      }
+    ],
+    "swaps": [
+      {
+        "id": "egg-yogurt",
+        "removesPantry": "egg",
+        "label": "No egg? Use 1/4 cup plain Greek yogurt for each egg.",
+        "source": "A common baking swap. The recipe writer did not test this version. Counted as low-fat plain Greek yogurt, 56.5 g per egg, from a published 1/2 cup = 113 g.",
+        "author": false,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "greek-lowfat",
+            "gramsEach": 56.5
+          }
+        ]
+      }
+    ],
+    "unquantified": [
+      "Everything bagel seasoning and flaky salt. Bethenny does not give amounts, so they are not in the numbers."
+    ],
+    "steps": [
+      {
+        "text": "Ask a grown-up to heat the oven to 375\u00b0F with the baking sheet inside.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Stir the blended cottage cheese, flour, and baking powder into a sticky dough.",
+        "grownup": []
+      },
+      {
+        "text": "Flour the counter. A grown-up divides the dough into 4 pieces. Shape balls, then poke a thumb through the middle to make bagel holes.",
+        "grownup": [
+          "knife"
+        ]
+      },
+      {
+        "text": "Brush the tops with beaten egg.",
+        "grownup": []
+      },
+      {
+        "text": "A grown-up moves the parchment onto the hot sheet. Bake until golden.",
+        "timerSec": 1500,
+        "timerLabel": "25 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Cool a little, then eat.",
+        "grownup": [
+          "oven"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nic-cookie-dough-bark",
+    "title": "Cottage cheese cookie dough bark",
+    "category": "Bark",
+    "blurb": "Cookie dough you freeze, then break. Nic's batch is 16 pieces.",
+    "servings": 16,
+    "servingLabel": "1 piece",
+    "minutes": 20,
+    "heat": "microwave",
+    "sourceName": "Nourished by Nic",
+    "sourceUrl": "https://nourishedbynic.com/cottage-cheese-cookie-dough-bark/",
+    "author": "Nic",
+    "lines": [
+      {
+        "foodId": "cottage-2",
+        "pantryId": "cottage-cheese",
+        "amount": "1 cup 2% cottage cheese",
+        "grams": 226.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup 2% cottage cheese, not packed = 226 g."
+      },
+      {
+        "foodId": "pb-unsalted",
+        "pantryId": "peanut-butter",
+        "amount": "2 tbsp natural peanut butter",
+        "grams": 32.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tbsp peanut butter = 16 g."
+      },
+      {
+        "foodId": "maple",
+        "pantryId": "maple",
+        "amount": "1 tbsp maple syrup",
+        "grams": 20.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tbsp maple syrup = 20 g."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "2 tsp vanilla",
+        "grams": 8.4,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      },
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "1 cup oat flour",
+        "grams": 91.12,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Nic says 1 cup oat flour is 1 cup plus 2 tablespoons of whole oats blended. USDA cup = 81 g and 2 tbsp = 10.13 g."
+      },
+      {
+        "foodId": "whey",
+        "pantryId": "protein-powder",
+        "amount": "1/4 cup vanilla protein powder",
+        "grams": 24.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "1/4 cup = 24 g from the whey cup fraction. Nutrients are unflavored whey-based powder."
+      },
+      {
+        "foodId": "chips",
+        "pantryId": "chocolate",
+        "amount": "1/3 cup chocolate chips",
+        "grams": 56.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup chocolate chips = 168 g."
+      },
+      {
+        "foodId": "chips",
+        "pantryId": "chocolate",
+        "amount": "1 cup chocolate chips for the topping",
+        "grams": 168.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup chocolate chips = 168 g."
+      },
+      {
+        "foodId": "coconut-oil",
+        "pantryId": "coconut-oil",
+        "amount": "2 tsp coconut oil",
+        "grams": 9.07,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp coconut oil = 4.5 g."
+      }
+    ],
+    "swaps": [],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Blend the cottage cheese, peanut butter, maple syrup, and vanilla until smooth.",
+        "grownup": []
+      },
+      {
+        "text": "Stir in the oat flour and protein powder. Then stir in 1/3 cup of chocolate chips.",
+        "grownup": []
+      },
+      {
+        "text": "Spread the dough on parchment. Wet the spatula if it sticks.",
+        "grownup": []
+      },
+      {
+        "text": "Ask a grown-up to melt 1 cup of chocolate chips with the coconut oil, 30 seconds at a time.",
+        "grownup": [
+          "microwave"
+        ]
+      },
+      {
+        "text": "Spread the chocolate over the dough.",
+        "grownup": []
+      },
+      {
+        "text": "Freeze until hard. Nic says at least 2 hours.",
+        "timerSec": 7200,
+        "timerLabel": "2 hours",
+        "grownup": []
+      },
+      {
+        "text": "Break into about 16 pieces. Keep them in the freezer.",
+        "grownup": []
+      }
+    ]
+  },
+  {
+    "id": "saucy-cc-muffins",
+    "title": "Banana cottage cheese muffins",
+    "category": "Muffins",
+    "blurb": "Blended cottage cheese muffins. The author printed several gram weights.",
+    "servings": 12,
+    "servingLabel": "1 muffin",
+    "minutes": 30,
+    "heat": "oven",
+    "sourceName": "The Saucy Chickpea",
+    "sourceUrl": "https://thesaucychickpea.com/recipes/banana-cottage-cheese-muffins",
+    "author": "The Saucy Chickpea",
+    "lines": [
+      {
+        "foodId": "cottage-4",
+        "pantryId": "cottage-cheese",
+        "amount": "1 cup (240 g) cottage cheese",
+        "grams": 240,
+        "count": 1,
+        "optional": false,
+        "gramNote": "The author printed 240 g. Fat level is not named, so creamed cottage cheese (4%) is used."
+      },
+      {
+        "foodId": "banana",
+        "pantryId": "banana",
+        "amount": "2 ripe bananas",
+        "grams": 236.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Size is not named. USDA medium banana = 118 g is used for each."
+      },
+      {
+        "foodId": "egg",
+        "pantryId": "egg",
+        "amount": "2 eggs",
+        "grams": 100.0,
+        "count": 2,
+        "optional": false,
+        "gramNote": "USDA 1 large egg = 50 g."
+      },
+      {
+        "foodId": "maple",
+        "pantryId": "maple",
+        "amount": "1/4 cup (60 ml) maple syrup",
+        "grams": 78.75,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup maple syrup = 315 g. The author also wrote 60 ml. The cup fraction is used."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "1 tsp vanilla",
+        "grams": 4.2,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      },
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "1 1/2 cups (150 g) oat flour",
+        "grams": 150,
+        "count": 1,
+        "optional": false,
+        "gramNote": "The author printed 150 g. Nutrients are dry rolled oats, because oat flour is milled oats."
+      },
+      {
+        "foodId": "baking-powder",
+        "pantryId": "baking-powder",
+        "amount": "1 tsp baking powder",
+        "grams": 4.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp baking powder = 4.6 g."
+      },
+      {
+        "foodId": "baking-soda",
+        "pantryId": "baking-soda",
+        "amount": "1/2 tsp baking soda",
+        "grams": 2.3,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1/2 tsp baking soda = 2.3 g."
+      },
+      {
+        "foodId": "cinnamon",
+        "pantryId": "cinnamon",
+        "amount": "1 tsp cinnamon",
+        "grams": 2.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp cinnamon = 2.6 g."
+      },
+      {
+        "foodId": "salt",
+        "pantryId": "salt",
+        "amount": "1/4 tsp salt",
+        "grams": 1.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp salt = 6 g."
+      }
+    ],
+    "swaps": [
+      {
+        "id": "egg-yogurt",
+        "removesPantry": "egg",
+        "label": "No egg? Use 1/4 cup plain Greek yogurt for each egg.",
+        "source": "A common baking swap. The recipe writer did not test this version. Counted as low-fat plain Greek yogurt, 56.5 g per egg, from a published 1/2 cup = 113 g.",
+        "author": false,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "greek-lowfat",
+            "gramsEach": 56.5
+          }
+        ]
+      }
+    ],
+    "unquantified": [
+      "Optional 1/2 cup chocolate chips or walnuts. Left out of the count."
+    ],
+    "steps": [
+      {
+        "text": "Ask a grown-up to heat the oven to 350\u00b0F. Line a muffin tin.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Blend the cottage cheese, bananas, eggs, maple syrup, and vanilla until smooth.",
+        "grownup": []
+      },
+      {
+        "text": "Stir in the oat flour, baking powder, baking soda, cinnamon, and salt. Stop when the flour disappears.",
+        "grownup": []
+      },
+      {
+        "text": "Fill the cups about 3/4 full.",
+        "grownup": []
+      },
+      {
+        "text": "Bake until the tops spring back. The page says 18 to 22 minutes.",
+        "timerSec": 1200,
+        "timerLabel": "20 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Cool 10 minutes in the tin.",
+        "timerSec": 600,
+        "timerLabel": "10 minutes",
+        "grownup": [
+          "oven"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "savory-banana-mug",
+    "title": "Banana yogurt oat mug cake",
+    "category": "Mug cakes",
+    "blurb": "One mug. About a minute in the microwave.",
+    "servings": 1,
+    "servingLabel": "1 mug cake",
+    "minutes": 5,
+    "heat": "microwave",
+    "sourceName": "Savory Mom Kitchen",
+    "sourceUrl": "https://savorymomskitchen.com/1-minute-banana-yogurt-oat-mug-cake/",
+    "author": "Sophia",
+    "lines": [
+      {
+        "foodId": "banana",
+        "pantryId": "banana",
+        "amount": "1 ripe banana",
+        "grams": 118.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Size is not named. USDA medium banana = 118 g."
+      },
+      {
+        "foodId": "greek-lowfat",
+        "pantryId": "greek-yogurt",
+        "amount": "1/4 cup plain Greek yogurt",
+        "grams": 56.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "1/4 cup = 56.5 g from the published 1/2 cup = 113 g. Fat level is not named, so low-fat plain Greek yogurt is used."
+      },
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "1/2 cup rolled oats",
+        "grams": 40.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup oats = 81 g. Sophia blends them into flour first. The weight stays the same."
+      },
+      {
+        "foodId": "baking-powder",
+        "pantryId": "baking-powder",
+        "amount": "1/2 tsp baking powder",
+        "grams": 2.3,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1/2 tsp baking powder = 2.3 g."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "1/2 tsp vanilla",
+        "grams": 2.1,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      }
+    ],
+    "swaps": [],
+    "unquantified": [
+      "Optional cinnamon, and an optional drizzle of honey or maple syrup. Left out of the count."
+    ],
+    "steps": [
+      {
+        "text": "Blend the oats into a soft flour. A grown-up can help with the blender.",
+        "grownup": []
+      },
+      {
+        "text": "Mash the banana in a microwave-safe mug. Stir in the yogurt and vanilla.",
+        "grownup": []
+      },
+      {
+        "text": "Stir in the oat flour and baking powder. Leave room at the top so it can rise.",
+        "grownup": []
+      },
+      {
+        "text": "Ask a grown-up to microwave it for about 60 seconds. Add 10 seconds only if the center still looks wet.",
+        "timerSec": 60,
+        "timerLabel": "1 minute",
+        "grownup": [
+          "microwave"
+        ]
+      },
+      {
+        "text": "Rest 1 minute. The mug is hot. Eat from the mug.",
+        "timerSec": 60,
+        "timerLabel": "1 minute",
+        "grownup": [
+          "microwave"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rita-cottage-mug",
+    "title": "Cottage cheese banana mug cake",
+    "category": "Mug cakes",
+    "blurb": "A tiny banana-bread cake with cottage cheese, ready in about a minute.",
+    "servings": 1,
+    "servingLabel": "1 mug cake",
+    "minutes": 5,
+    "heat": "microwave",
+    "sourceName": "Rita Mug Cakes",
+    "sourceUrl": "https://ritamugcakes.com/cottage-cheese-banana-bread-mug-cake/",
+    "author": "Rita Mug Cakes",
+    "lines": [
+      {
+        "foodId": "banana",
+        "pantryId": "banana",
+        "amount": "1/2 ripe banana",
+        "grams": 59.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Size is not named. Half of a USDA medium banana (118 g) is used."
+      },
+      {
+        "foodId": "cottage-4",
+        "pantryId": "cottage-cheese",
+        "amount": "2 tbsp cottage cheese",
+        "grams": 28.12,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Scaled from the USDA small-curd cup, 225 g. Fat level is not named, so creamed cottage cheese is used."
+      },
+      {
+        "foodId": "egg",
+        "pantryId": "egg",
+        "amount": "1 egg",
+        "grams": 50.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 large egg = 50 g."
+      },
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "1 tbsp oat flour",
+        "grams": 5.06,
+        "count": 1,
+        "optional": false,
+        "gramNote": "No USDA tablespoon for oat flour. 1 tbsp dry oats = 5.06 g is used, and the screen says oat flour can weigh a little more."
+      },
+      {
+        "foodId": "baking-powder",
+        "pantryId": "baking-powder",
+        "amount": "1/2 tsp baking powder",
+        "grams": 2.3,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1/2 tsp baking powder = 2.3 g."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "1/2 tsp vanilla",
+        "grams": 2.1,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      }
+    ],
+    "swaps": [
+      {
+        "id": "egg-yogurt",
+        "removesPantry": "egg",
+        "label": "No egg? Use 1/4 cup plain Greek yogurt for each egg.",
+        "source": "A common baking swap. The recipe writer did not test this version. Counted as low-fat plain Greek yogurt, 56.5 g per egg, from a published 1/2 cup = 113 g.",
+        "author": false,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "greek-lowfat",
+            "gramsEach": 56.5
+          }
+        ]
+      },
+      {
+        "id": "oat-to-almond-flour",
+        "removesPantry": "oats",
+        "label": "Rita says almond flour can replace the oat flour, same tablespoon.",
+        "source": "Rita Mug Cakes recipe notes.",
+        "author": true,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "almond-flour",
+            "grams": 5.94
+          }
+        ]
+      }
+    ],
+    "unquantified": [
+      "Optional cinnamon, 1 tbsp chocolate chips, and a drizzle of maple syrup. Left out of the count."
+    ],
+    "steps": [
+      {
+        "text": "Mash the banana in a microwave-safe mug.",
+        "grownup": []
+      },
+      {
+        "text": "Add the cottage cheese, egg, and vanilla. Mix well.",
+        "grownup": []
+      },
+      {
+        "text": "Stir in the oat flour and baking powder.",
+        "grownup": []
+      },
+      {
+        "text": "Ask a grown-up to microwave it until the top is set. The page says 60 to 90 seconds.",
+        "timerSec": 75,
+        "timerLabel": "75 seconds",
+        "grownup": [
+          "microwave"
+        ]
+      },
+      {
+        "text": "Cool 1 to 2 minutes. The mug is hot.",
+        "timerSec": 90,
+        "timerLabel": "90 seconds",
+        "grownup": [
+          "microwave"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pur-cc-brownies",
+    "title": "Cottage cheese banana brownies",
+    "category": "Brownies",
+    "blurb": "A small pan of brownies sweetened with banana and maple syrup.",
+    "servings": 4,
+    "servingLabel": "1 brownie",
+    "minutes": 35,
+    "heat": "oven",
+    "sourceName": "Pur and Simple Recipes",
+    "sourceUrl": "https://purandsimplerecipes.com/cottage-cheese-banana-brownies/",
+    "author": "Mary McQueen",
+    "lines": [
+      {
+        "foodId": "banana",
+        "pantryId": "banana",
+        "amount": "1 ripe banana",
+        "grams": 118.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Size is not named. USDA medium banana = 118 g."
+      },
+      {
+        "foodId": "cottage-4",
+        "pantryId": "cottage-cheese",
+        "amount": "1/2 cup cottage cheese",
+        "grams": 112.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Half of the USDA small-curd cup (225 g). Fat level is not named, so creamed cottage cheese is used."
+      },
+      {
+        "foodId": "cocoa",
+        "pantryId": "cocoa",
+        "amount": "1/4 cup cocoa powder",
+        "grams": 21.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup unsweetened cocoa = 86 g."
+      },
+      {
+        "foodId": "maple",
+        "pantryId": "maple",
+        "amount": "1/4 cup maple syrup",
+        "grams": 78.75,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup maple syrup = 315 g."
+      },
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "1/2 cup oat flour",
+        "grams": 40.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "No oat-flour cup in SR Legacy. Half of the rolled-oat cup (81 g) is used. Oat flour can weigh more, so fiber may be a little low."
+      },
+      {
+        "foodId": "baking-powder",
+        "pantryId": "baking-powder",
+        "amount": "1/2 tsp baking powder",
+        "grams": 2.3,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1/2 tsp baking powder = 2.3 g."
+      }
+    ],
+    "swaps": [],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Ask a grown-up to heat the oven to 350\u00b0F. Line a small baking dish.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Blend or stir the banana, cottage cheese, cocoa, and maple syrup until smooth.",
+        "grownup": []
+      },
+      {
+        "text": "Stir in the oat flour and baking powder.",
+        "grownup": []
+      },
+      {
+        "text": "Spread the batter in the dish.",
+        "grownup": []
+      },
+      {
+        "text": "Bake until a toothpick comes out clean. The page says 20 to 25 minutes.",
+        "timerSec": 1320,
+        "timerLabel": "22 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Cool, then a grown-up cuts 4 brownies.",
+        "grownup": [
+          "knife",
+          "oven"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rachna-protein-brownies",
+    "title": "Yogurt cottage cheese protein brownies",
+    "category": "Brownies",
+    "blurb": "Egg-free brownies with yogurt, cottage cheese, and protein powder. Twelve bars.",
+    "servings": 12,
+    "servingLabel": "1 bar",
+    "minutes": 40,
+    "heat": "oven",
+    "sourceName": "Rachna's Kitchen",
+    "sourceUrl": "https://rachnas-kitchen.com/eggless-chocolate-protein-brownies/",
+    "author": "Rachna's Kitchen",
+    "lines": [
+      {
+        "foodId": "flour",
+        "pantryId": "flour",
+        "amount": "1/4 cup wheat flour",
+        "grams": 31.25,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Rachna says wheat flour. All-purpose enriched flour is used. USDA 1 cup = 125 g."
+      },
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "1/4 cup rolled oats",
+        "grams": 20.25,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup oats = 81 g."
+      },
+      {
+        "foodId": "brown-sugar",
+        "pantryId": "brown-sugar",
+        "amount": "3/4 cup brown sugar",
+        "grams": 165.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 packed cup brown sugar = 220 g. Packed is assumed."
+      },
+      {
+        "foodId": "cocoa",
+        "pantryId": "cocoa",
+        "amount": "1/4 cup unsweetened cocoa",
+        "grams": 21.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup cocoa = 86 g."
+      },
+      {
+        "foodId": "whey",
+        "pantryId": "protein-powder",
+        "amount": "1/2 cup chocolate protein powder",
+        "grams": 48.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "1/2 cup = 48 g from the whey cup fraction. Rachna used vanilla once and recommends chocolate. Nutrients are unflavored whey-based powder."
+      },
+      {
+        "foodId": "baking-powder",
+        "pantryId": "baking-powder",
+        "amount": "1 tsp baking powder",
+        "grams": 4.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp baking powder = 4.6 g."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "1 tsp vanilla",
+        "grams": 4.2,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      },
+      {
+        "foodId": "greek-lowfat",
+        "pantryId": "greek-yogurt",
+        "amount": "1/2 cup plus 1 tbsp Greek yogurt",
+        "grams": 127.12,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Fat level is not named, so low-fat plain Greek yogurt is used. Cup weight 226 g comes from a published 1/2 cup = 113 g."
+      },
+      {
+        "foodId": "banana",
+        "pantryId": "banana",
+        "amount": "1/2 cup mashed banana",
+        "grams": 112.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup mashed banana = 225 g."
+      },
+      {
+        "foodId": "cottage-4",
+        "pantryId": "cottage-cheese",
+        "amount": "1/4 cup cottage cheese",
+        "grams": 56.25,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Quarter of the USDA small-curd cup. Fat level is not named, so creamed cottage cheese is used."
+      },
+      {
+        "foodId": "milk-skim",
+        "pantryId": "milk",
+        "amount": "1/4 cup skim milk",
+        "grams": 61.25,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup skim milk = 245 g."
+      },
+      {
+        "foodId": "dark-70",
+        "pantryId": "chocolate",
+        "amount": "3 tbsp dark chocolate",
+        "grams": 31.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "No tablespoon for dark chocolate. 3 tbsp is scaled from the semisweet chip cup (168 g). Nutrients are dark chocolate, 70-85% cacao."
+      },
+      {
+        "foodId": "milk-skim",
+        "pantryId": "milk",
+        "amount": "2 tsp milk for the frosting",
+        "grams": 10.21,
+        "count": 1,
+        "optional": false,
+        "gramNote": "2 tsp scaled from the USDA cup of skim milk (245 g)."
+      }
+    ],
+    "swaps": [],
+    "unquantified": [
+      "A small pinch of baking soda. No gram weight was published, and baking soda would not change protein or fiber, so it is left out."
+    ],
+    "steps": [
+      {
+        "text": "Ask a grown-up to heat the oven to 350\u00b0F and grease a baking pan.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Stir the flour, protein powder, oats, baking powder, and cocoa in a bowl.",
+        "grownup": []
+      },
+      {
+        "text": "Mash the banana. Stir in the yogurt, cottage cheese, brown sugar, vanilla, and a tiny pinch of baking soda.",
+        "grownup": []
+      },
+      {
+        "text": "Ask a grown-up to heat the 1/4 cup of milk and melt chocolate into it, then stir that into the batter.",
+        "grownup": [
+          "stove"
+        ]
+      },
+      {
+        "text": "Pour the batter into the pan. Bake until the top is set. Rachna says 18 to 22 minutes.",
+        "timerSec": 1200,
+        "timerLabel": "20 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Cool. A grown-up melts 3 tablespoons of chocolate with 2 teaspoons of milk and pours it on top, then cuts 12 bars.",
+        "grownup": [
+          "microwave",
+          "knife"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ambitious-oatmeal-cups",
+    "title": "Peanut butter banana oatmeal cups",
+    "category": "Muffins",
+    "blurb": "Baked oatmeal you can hold. Monique wrote gram weights for the big ingredients.",
+    "servings": 12,
+    "servingLabel": "1 cup",
+    "minutes": 35,
+    "heat": "oven",
+    "sourceName": "Ambitious Kitchen",
+    "sourceUrl": "https://www.ambitiouskitchen.com/peanut-butter-banana-baked-oatmeal-cups/",
+    "author": "Monique Volz",
+    "lines": [
+      {
+        "foodId": "banana",
+        "pantryId": "banana",
+        "amount": "1 heaping cup mashed banana",
+        "grams": 225.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup mashed banana = 225 g. Monique says heaping and does not give a heavier weight, so one level cup is counted."
+      },
+      {
+        "foodId": "pb-unsalted",
+        "pantryId": "peanut-butter",
+        "amount": "1/2 cup (128 g) peanut butter",
+        "grams": 128,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Monique printed 128 g. Natural peanut butter, just peanuts and salt, uses the no-salt USDA record."
+      },
+      {
+        "foodId": "egg",
+        "pantryId": "egg",
+        "amount": "2 eggs",
+        "grams": 100.0,
+        "count": 2,
+        "optional": false,
+        "gramNote": "USDA 1 large egg = 50 g."
+      },
+      {
+        "foodId": "maple",
+        "pantryId": "maple",
+        "amount": "2 tbsp maple syrup",
+        "grams": 40.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tbsp maple syrup = 20 g."
+      },
+      {
+        "foodId": "almond-milk",
+        "pantryId": "almond-milk",
+        "amount": "2/3 cup (160 g) unsweetened almond milk",
+        "grams": 160,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Monique printed 160 g."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "1 tsp vanilla",
+        "grams": 4.2,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      },
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "2 cups (190 g) rolled oats",
+        "grams": 190,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Monique printed 190 g."
+      },
+      {
+        "foodId": "baking-powder",
+        "pantryId": "baking-powder",
+        "amount": "1 tsp baking powder",
+        "grams": 4.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp baking powder = 4.6 g."
+      },
+      {
+        "foodId": "cinnamon",
+        "pantryId": "cinnamon",
+        "amount": "1 tsp cinnamon",
+        "grams": 2.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp cinnamon = 2.6 g."
+      },
+      {
+        "foodId": "salt",
+        "pantryId": "salt",
+        "amount": "1/4 tsp salt",
+        "grams": 1.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp salt = 6 g."
+      },
+      {
+        "foodId": "chips",
+        "pantryId": "chocolate",
+        "amount": "1/3 cup (60 g) chocolate chips",
+        "grams": 60,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Monique printed 60 g."
+      },
+      {
+        "foodId": "chips",
+        "pantryId": "chocolate",
+        "amount": "2 tbsp chocolate chips on top",
+        "grams": 22.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Scaled from Monique's 60 g per 1/3 cup, so 2 tbsp = 22.5 g."
+      }
+    ],
+    "swaps": [
+      {
+        "id": "egg-yogurt",
+        "removesPantry": "egg",
+        "label": "No egg? Use 1/4 cup plain Greek yogurt for each egg.",
+        "source": "A common baking swap. The recipe writer did not test this version. Counted as low-fat plain Greek yogurt, 56.5 g per egg, from a published 1/2 cup = 113 g.",
+        "author": false,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "greek-lowfat",
+            "gramsEach": 56.5
+          }
+        ]
+      },
+      {
+        "id": "maple-to-honey",
+        "removesPantry": "maple",
+        "label": "Monique says honey can replace the maple syrup.",
+        "source": "Ambitious Kitchen ingredient line: maple syrup or honey.",
+        "author": true,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "honey",
+            "grams": 42.0
+          }
+        ]
+      },
+      {
+        "id": "almond-milk-to-milk",
+        "removesPantry": "almond-milk",
+        "label": "Monique says any milk works. This swap uses 160 g of 2% milk, her printed weight.",
+        "source": "Ambitious Kitchen ingredient note.",
+        "author": true,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "milk-2",
+            "grams": 160
+          }
+        ]
+      }
+    ],
+    "unquantified": [
+      "Optional 1/3 cup chopped walnuts. Left out of the count."
+    ],
+    "steps": [
+      {
+        "text": "Ask a grown-up to heat the oven to 350\u00b0F. Line 12 muffin cups and spray the liners.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Stir the banana, peanut butter, eggs, maple syrup, almond milk, and vanilla until smooth.",
+        "grownup": []
+      },
+      {
+        "text": "Stir in the oats, baking powder, cinnamon, and salt. Fold in 1/3 cup of chocolate chips.",
+        "grownup": []
+      },
+      {
+        "text": "Share the batter between the cups. Sprinkle the extra chips on top.",
+        "grownup": []
+      },
+      {
+        "text": "Bake until set. Monique says 20 to 25 minutes.",
+        "timerSec": 1320,
+        "timerLabel": "22 minutes",
+        "grownup": [
+          "oven"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "epicurean-yogurt-cookies",
+    "title": "Peanut butter yogurt chocolate cookies",
+    "category": "Cookies",
+    "blurb": "Greek yogurt cookies with chocolate. Julie's card makes 15.",
+    "servings": 15,
+    "servingLabel": "1 cookie",
+    "minutes": 20,
+    "heat": "oven",
+    "sourceName": "The Healthy Epicurean",
+    "sourceUrl": "https://thehealthyepicurean.com/peanut-butter-yogurt-cookies-with-dark-chocolate/",
+    "author": "Julie Andrews",
+    "lines": [
+      {
+        "foodId": "pb-salted",
+        "pantryId": "peanut-butter",
+        "amount": "1 1/2 cups creamy peanut butter",
+        "grams": 387.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup peanut butter = 258 g. Julie says not to use the oil-on-top kind, so the salted smooth record is used."
+      },
+      {
+        "foodId": "greek-vanilla-low",
+        "pantryId": "greek-yogurt",
+        "amount": "1/2 cup vanilla Greek yogurt",
+        "grams": 113.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "1/2 cup = 113 g from a published Greek yogurt weight. Low-fat vanilla Greek yogurt is used. Julie says plain yogurt plus 1 tsp vanilla is the other choice, so extra vanilla is not added on top of the vanilla yogurt."
+      },
+      {
+        "foodId": "brown-sugar",
+        "pantryId": "brown-sugar",
+        "amount": "1/2 cup lightly packed brown sugar",
+        "grams": 110.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Julie allows 1/2 to 3/4 cup. The lower amount is counted. USDA packed cup = 220 g. She says lightly packed."
+      },
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "6 tbsp rolled oats",
+        "grams": 30.38,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Scaled from USDA 1 cup oats = 81 g."
+      },
+      {
+        "foodId": "egg",
+        "pantryId": "egg",
+        "amount": "2 large eggs",
+        "grams": 100.0,
+        "count": 2,
+        "optional": false,
+        "gramNote": "USDA 1 large egg = 50 g."
+      },
+      {
+        "foodId": "baking-soda",
+        "pantryId": "baking-soda",
+        "amount": "1 tsp baking soda",
+        "grams": 4.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp baking soda = 4.6 g."
+      },
+      {
+        "foodId": "salt",
+        "pantryId": "salt",
+        "amount": "1 tsp coarse salt",
+        "grams": 6.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp table salt = 6 g. Coarse salt weighs less. This record adds no protein, fiber, calories, or sugar either way."
+      },
+      {
+        "foodId": "dark-70",
+        "pantryId": "chocolate",
+        "amount": "1/2 cup dark chocolate chips",
+        "grams": 84.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Dark chocolate has no chip-cup weight. Half of the semisweet chip cup (168 g) is used for the weight. Nutrients are dark chocolate, 70-85% cacao."
+      }
+    ],
+    "swaps": [
+      {
+        "id": "egg-yogurt",
+        "removesPantry": "egg",
+        "label": "No egg? Use 1/4 cup plain Greek yogurt for each egg.",
+        "source": "A common baking swap. The recipe writer did not test this version. Counted as low-fat plain Greek yogurt, 56.5 g per egg, from a published 1/2 cup = 113 g.",
+        "author": false,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "greek-lowfat",
+            "gramsEach": 56.5
+          }
+        ]
+      }
+    ],
+    "unquantified": [
+      "Optional flaky sea salt on top. Left out of the count."
+    ],
+    "steps": [
+      {
+        "text": "Ask a grown-up to heat the oven to 350\u00b0F. Line a baking sheet.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Stir the peanut butter, yogurt, brown sugar, oats, eggs, baking soda, and salt until combined.",
+        "grownup": []
+      },
+      {
+        "text": "Fold in the chocolate. If the batter looks runny, Julie says to add a few more tablespoons of oats.",
+        "grownup": []
+      },
+      {
+        "text": "Scoop mounds onto the sheet, a little bit apart.",
+        "grownup": []
+      },
+      {
+        "text": "Bake until the tops just start to crack. Julie says 10 to 15 minutes.",
+        "timerSec": 720,
+        "timerLabel": "12 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Let them cool before you move them. They are tender when hot.",
+        "grownup": [
+          "oven"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "liv-pb-oat-bars",
+    "title": "No-bake peanut butter oat bars",
+    "category": "Bars",
+    "blurb": "A pan of oat bars with a chocolate top. Olivia printed the gram weights.",
+    "servings": 24,
+    "servingLabel": "1 bar",
+    "minutes": 20,
+    "heat": "stove",
+    "sourceName": "Liv's Little Muffins",
+    "sourceUrl": "https://livslittlemuffins.com/no-bake-peanut-butter-oat-bars/",
+    "author": "Olivia Daly",
+    "lines": [
+      {
+        "foodId": "pb-salted",
+        "pantryId": "peanut-butter",
+        "amount": "3 cups (660 g) peanut butter",
+        "grams": 660,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Olivia printed 660 g for 3 cups. Her weight is used, not the USDA cup."
+      },
+      {
+        "foodId": "honey",
+        "pantryId": "honey",
+        "amount": "1 cup (320 g) honey",
+        "grams": 320,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Olivia printed 320 g."
+      },
+      {
+        "foodId": "salt",
+        "pantryId": "salt",
+        "amount": "1/2 tsp salt",
+        "grams": 3.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp salt = 6 g."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "1 tsp vanilla",
+        "grams": 4.2,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      },
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "4 cups (480 g) quick oats",
+        "grams": 480,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Olivia printed 480 g."
+      },
+      {
+        "foodId": "chips",
+        "pantryId": "chocolate",
+        "amount": "2 cups (320 g) semisweet chocolate chips",
+        "grams": 320,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Olivia printed 320 g."
+      },
+      {
+        "foodId": "butter",
+        "pantryId": "butter",
+        "amount": "2 1/2 tbsp (35 g) butter",
+        "grams": 35,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Olivia printed 35 g."
+      }
+    ],
+    "swaps": [],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Line a 9 by 13 inch pan with parchment.",
+        "grownup": []
+      },
+      {
+        "text": "Ask a grown-up to warm the peanut butter, honey, and salt in a saucepan over medium-low heat until melted, then 2 minutes more.",
+        "timerSec": 120,
+        "timerLabel": "2 minutes",
+        "grownup": [
+          "stove"
+        ]
+      },
+      {
+        "text": "Take the pan off the heat. Stir in the vanilla, then the oats. Spread the mix in the pan. Do not press hard.",
+        "grownup": [
+          "stove"
+        ]
+      },
+      {
+        "text": "Ask a grown-up to melt the chocolate chips and butter, 30 seconds at a time.",
+        "grownup": [
+          "microwave"
+        ]
+      },
+      {
+        "text": "Spread the chocolate over the oats.",
+        "grownup": []
+      },
+      {
+        "text": "Chill until the chocolate is set.",
+        "timerSec": 7200,
+        "timerLabel": "2 hours",
+        "grownup": []
+      },
+      {
+        "text": "A grown-up cuts 24 bars.",
+        "grownup": [
+          "knife"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wellplated-pb-bars",
+    "title": "Peanut butter oatmeal bars",
+    "category": "Bars",
+    "blurb": "One bowl, one pan, sixteen bars. Flour and butter stay in the cupboard.",
+    "servings": 16,
+    "servingLabel": "1 bar",
+    "minutes": 30,
+    "heat": "oven",
+    "sourceName": "Well Plated",
+    "sourceUrl": "https://www.wellplated.com/peanut-butter-oatmeal-bars/",
+    "author": "Erin Clarke",
+    "lines": [
+      {
+        "foodId": "pb-salted",
+        "pantryId": "peanut-butter",
+        "amount": "1 cup creamy peanut butter",
+        "grams": 258.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup peanut butter = 258 g."
+      },
+      {
+        "foodId": "brown-sugar",
+        "pantryId": "brown-sugar",
+        "amount": "3/4 cup light brown sugar",
+        "grams": 165.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 packed cup brown sugar = 220 g. Packed is assumed."
+      },
+      {
+        "foodId": "baking-soda",
+        "pantryId": "baking-soda",
+        "amount": "1/2 tsp baking soda",
+        "grams": 2.3,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1/2 tsp baking soda = 2.3 g."
+      },
+      {
+        "foodId": "salt",
+        "pantryId": "salt",
+        "amount": "1/8 tsp salt",
+        "grams": 0.75,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp salt = 6 g."
+      },
+      {
+        "foodId": "egg",
+        "pantryId": "egg",
+        "amount": "1 large egg",
+        "grams": 50.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 large egg = 50 g."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "1 tsp vanilla",
+        "grams": 4.2,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      },
+      {
+        "foodId": "chips",
+        "pantryId": "chocolate",
+        "amount": "1/2 cup semisweet chocolate chips",
+        "grams": 84.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup chips = 168 g."
+      },
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "1/3 cup rolled oats",
+        "grams": 27.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1/3 cup oats = 27 g."
+      }
+    ],
+    "swaps": [
+      {
+        "id": "egg-yogurt",
+        "removesPantry": "egg",
+        "label": "No egg? Use 1/4 cup plain Greek yogurt for each egg.",
+        "source": "A common baking swap. The recipe writer did not test this version. Counted as low-fat plain Greek yogurt, 56.5 g per egg, from a published 1/2 cup = 113 g.",
+        "author": false,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "greek-lowfat",
+            "gramsEach": 56.5
+          }
+        ]
+      }
+    ],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Ask a grown-up to heat the oven to 350\u00b0F. Line an 8-inch square pan.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Beat the peanut butter, brown sugar, baking soda, and salt until combined.",
+        "grownup": []
+      },
+      {
+        "text": "Mix in the egg and vanilla. Stir in the chocolate chips and oats by hand.",
+        "grownup": []
+      },
+      {
+        "text": "Press the dough into the pan.",
+        "grownup": []
+      },
+      {
+        "text": "Bake until the top is set and golden.",
+        "timerSec": 1320,
+        "timerLabel": "22 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Cool completely. A grown-up cuts 16 bars.",
+        "grownup": [
+          "knife",
+          "oven"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ambitious-cc-pancakes",
+    "title": "Cottage cheese banana pancakes",
+    "category": "Pancakes",
+    "blurb": "Blender pancakes for one hungry kid. Oats, banana, egg, and cottage cheese.",
+    "servings": 1,
+    "servingLabel": "the whole batch (3 to 4 pancakes)",
+    "minutes": 15,
+    "heat": "stove",
+    "sourceName": "Ambitious Kitchen",
+    "sourceUrl": "https://www.ambitiouskitchen.com/cottage-cheese-banana-oatmeal-protein-pancakes/",
+    "author": "Monique Volz",
+    "lines": [
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "1/2 cup (48 g) rolled oats",
+        "grams": 48,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Monique printed 48 g."
+      },
+      {
+        "foodId": "banana",
+        "pantryId": "banana",
+        "amount": "1/2 medium banana",
+        "grams": 59.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 medium banana = 118 g."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "1/2 tsp vanilla",
+        "grams": 2.1,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      },
+      {
+        "foodId": "baking-powder",
+        "pantryId": "baking-powder",
+        "amount": "1 tsp baking powder",
+        "grams": 4.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp baking powder = 4.6 g."
+      },
+      {
+        "foodId": "cinnamon",
+        "pantryId": "cinnamon",
+        "amount": "1/2 tsp cinnamon",
+        "grams": 1.3,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp cinnamon = 2.6 g."
+      },
+      {
+        "foodId": "egg",
+        "pantryId": "egg",
+        "amount": "1 egg",
+        "grams": 50.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 large egg = 50 g."
+      },
+      {
+        "foodId": "cottage-2",
+        "pantryId": "cottage-cheese",
+        "amount": "1/4 cup (55 g) low-fat cottage cheese",
+        "grams": 55,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Monique printed 55 g. Nutrients are 2% cottage cheese. A 1% record also exists."
+      }
+    ],
+    "swaps": [
+      {
+        "id": "egg-yogurt",
+        "removesPantry": "egg",
+        "label": "No egg? Use 1/4 cup plain Greek yogurt for each egg.",
+        "source": "A common baking swap. The recipe writer did not test this version. Counted as low-fat plain Greek yogurt, 56.5 g per egg, from a published 1/2 cup = 113 g.",
+        "author": false,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "greek-lowfat",
+            "gramsEach": 56.5
+          }
+        ]
+      }
+    ],
+    "unquantified": [
+      "Optional berries, chocolate chips, or peanut butter on top. Left out of the count."
+    ],
+    "steps": [
+      {
+        "text": "Put the oats, banana, vanilla, baking powder, cinnamon, egg, and cottage cheese in a blender. Blend until smooth, about 30 seconds.",
+        "grownup": []
+      },
+      {
+        "text": "Ask a grown-up to heat a nonstick pan on medium-low and add a little spray.",
+        "grownup": [
+          "stove"
+        ]
+      },
+      {
+        "text": "Pour the batter in 1/4-cup puddles.",
+        "grownup": [
+          "stove"
+        ]
+      },
+      {
+        "text": "Cook until bubbles show on top. A grown-up flips them and cooks the other side.",
+        "grownup": [
+          "stove"
+        ]
+      },
+      {
+        "text": "Repeat with the rest of the batter. You should get 3 or 4 pancakes.",
+        "grownup": [
+          "stove"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ambitious-banana-bread",
+    "title": "Greek yogurt banana bread",
+    "category": "Bread",
+    "blurb": "One loaf, twelve slices, with yogurt and maple syrup instead of a lot of sugar.",
+    "servings": 12,
+    "servingLabel": "1 slice",
+    "minutes": 70,
+    "heat": "oven",
+    "sourceName": "Ambitious Kitchen",
+    "sourceUrl": "https://www.ambitiouskitchen.com/my-favorite-healthy-banana-bread-recipe/",
+    "author": "Monique Volz",
+    "lines": [
+      {
+        "foodId": "banana",
+        "pantryId": "banana",
+        "amount": "1 1/3 cups mashed banana",
+        "grams": 300.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Monique says 3 large bananas, about 1 1/3 cups mashed. USDA 1 cup mashed = 225 g, so 1 1/3 cups = 300 g. Three USDA large bananas would be heavier. The cup she measured is used."
+      },
+      {
+        "foodId": "egg",
+        "pantryId": "egg",
+        "amount": "2 eggs",
+        "grams": 100.0,
+        "count": 2,
+        "optional": false,
+        "gramNote": "USDA 1 large egg = 50 g."
+      },
+      {
+        "foodId": "maple",
+        "pantryId": "maple",
+        "amount": "1/3 cup (104 g) maple syrup",
+        "grams": 104,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Monique printed 104 g."
+      },
+      {
+        "foodId": "greek-whole",
+        "pantryId": "greek-yogurt",
+        "amount": "1/2 cup (113 g) plain Greek yogurt",
+        "grams": 113,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Monique printed 113 g and allows whole-milk or 2%. Whole-milk plain Greek yogurt is counted."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "1 tsp vanilla",
+        "grams": 4.2,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      },
+      {
+        "foodId": "soft-wheat",
+        "pantryId": "whole-wheat",
+        "amount": "1 3/4 cups (198 g) whole wheat pastry flour",
+        "grams": 198,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Monique printed 198 g. Nutrients are soft whole-wheat flour, the closest SR Legacy flour to pastry flour."
+      },
+      {
+        "foodId": "baking-soda",
+        "pantryId": "baking-soda",
+        "amount": "1 tsp baking soda",
+        "grams": 4.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp baking soda = 4.6 g."
+      },
+      {
+        "foodId": "cinnamon",
+        "pantryId": "cinnamon",
+        "amount": "1/2 tsp cinnamon",
+        "grams": 1.3,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp cinnamon = 2.6 g."
+      },
+      {
+        "foodId": "salt",
+        "pantryId": "salt",
+        "amount": "1/4 tsp salt",
+        "grams": 1.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp salt = 6 g."
+      },
+      {
+        "foodId": "butter",
+        "pantryId": "butter",
+        "amount": "6 tbsp (85 g) melted butter",
+        "grams": 85,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Monique printed 85 g."
+      }
+    ],
+    "swaps": [
+      {
+        "id": "egg-yogurt",
+        "removesPantry": "egg",
+        "label": "No egg? Use 1/4 cup plain Greek yogurt for each egg.",
+        "source": "A common baking swap. The recipe writer did not test this version. Counted as low-fat plain Greek yogurt, 56.5 g per egg, from a published 1/2 cup = 113 g.",
+        "author": false,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "greek-lowfat",
+            "gramsEach": 56.5
+          }
+        ]
+      },
+      {
+        "id": "butter-to-olive",
+        "removesPantry": "butter",
+        "label": "Monique says olive oil can replace the butter. Counted as 6 tablespoons (81 g).",
+        "source": "Ambitious Kitchen ingredient note.",
+        "author": true,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "olive-oil",
+            "grams": 81.0
+          }
+        ]
+      },
+      {
+        "id": "butter-to-coconut-oil",
+        "removesPantry": "butter",
+        "label": "Monique says melted coconut oil can replace the butter. Counted as 6 tablespoons (81.6 g).",
+        "source": "Ambitious Kitchen ingredient note.",
+        "author": true,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "coconut-oil",
+            "grams": 81.6
+          }
+        ]
+      }
+    ],
+    "unquantified": [
+      "Optional 1/2 cup walnuts and optional chocolate chips. Left out of the count. An optional banana on top is also left out."
+    ],
+    "steps": [
+      {
+        "text": "Ask a grown-up to heat the oven to 350\u00b0F. Line a loaf pan.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Stir the mashed banana, eggs, maple syrup, yogurt, and vanilla.",
+        "grownup": []
+      },
+      {
+        "text": "Whisk the flour, baking soda, cinnamon, and salt. Stir them into the wet mix just until combined.",
+        "grownup": []
+      },
+      {
+        "text": "Stir in the melted butter. It should be cool enough to touch.",
+        "grownup": [
+          "stove"
+        ]
+      },
+      {
+        "text": "Pour the batter into the pan.",
+        "grownup": []
+      },
+      {
+        "text": "Bake about 50 to 60 minutes, until a toothpick comes out clean. If the top gets dark, a grown-up can tent it with foil.",
+        "timerSec": 3300,
+        "timerLabel": "55 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Cool before a grown-up slices 12 pieces.",
+        "grownup": [
+          "knife",
+          "oven"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ambitious-pb-cookies",
+    "title": "Flourless peanut butter chocolate cookies",
+    "category": "Cookies",
+    "blurb": "Six ingredients, no flour. The batch makes about 24 cookies.",
+    "servings": 24,
+    "servingLabel": "1 cookie",
+    "minutes": 15,
+    "heat": "oven",
+    "sourceName": "Ambitious Kitchen",
+    "sourceUrl": "https://www.ambitiouskitchen.com/6-ingredient-flourless-peanut-butter-chocolate-chunk-cookies/",
+    "author": "Monique Volz",
+    "lines": [
+      {
+        "foodId": "pb-unsalted",
+        "pantryId": "peanut-butter",
+        "amount": "1 1/2 cups natural creamy peanut butter",
+        "grams": 387.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup peanut butter = 258 g. She says all-natural, so the no-salt record is used."
+      },
+      {
+        "foodId": "honey",
+        "pantryId": "honey",
+        "amount": "1/2 cup honey",
+        "grams": 169.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup honey = 339 g."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "2 tsp vanilla",
+        "grams": 8.4,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      },
+      {
+        "foodId": "egg",
+        "pantryId": "egg",
+        "amount": "2 eggs",
+        "grams": 100.0,
+        "count": 2,
+        "optional": false,
+        "gramNote": "USDA 1 large egg = 50 g."
+      },
+      {
+        "foodId": "baking-soda",
+        "pantryId": "baking-soda",
+        "amount": "1/2 tsp baking soda",
+        "grams": 2.3,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1/2 tsp baking soda = 2.3 g."
+      },
+      {
+        "foodId": "chips",
+        "pantryId": "chocolate",
+        "amount": "3.5 oz chocolate bar",
+        "grams": 99.23,
+        "count": 1,
+        "optional": false,
+        "gramNote": "3.5 ounces using the USDA ounce of 28.35 g. Counted as semisweet chocolate. Monique says any favorite bar."
+      }
+    ],
+    "swaps": [
+      {
+        "id": "egg-yogurt",
+        "removesPantry": "egg",
+        "label": "No egg? Use 1/4 cup plain Greek yogurt for each egg.",
+        "source": "A common baking swap. The recipe writer did not test this version. Counted as low-fat plain Greek yogurt, 56.5 g per egg, from a published 1/2 cup = 113 g.",
+        "author": false,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "greek-lowfat",
+            "gramsEach": 56.5
+          }
+        ]
+      }
+    ],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Ask a grown-up to heat the oven to 350\u00b0F.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Stir the peanut butter, honey, vanilla, eggs, and baking soda until smooth.",
+        "grownup": []
+      },
+      {
+        "text": "A grown-up chops the chocolate. Fold it in.",
+        "grownup": [
+          "knife"
+        ]
+      },
+      {
+        "text": "Roll 2-inch balls. Set them apart and barely flatten the tops.",
+        "grownup": []
+      },
+      {
+        "text": "Bake until the edges just turn golden. Monique says 8 to 10 minutes. They look a little underdone, and that is right.",
+        "timerSec": 540,
+        "timerLabel": "9 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Cool on the sheet for 5 minutes, then move them to a rack.",
+        "timerSec": 300,
+        "timerLabel": "5 minutes",
+        "grownup": [
+          "oven"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sally-pb-oat-cookies",
+    "title": "Flourless peanut butter oatmeal cookies",
+    "category": "Cookies",
+    "blurb": "Sally's chewy cookies. She printed gram weights, and the dough needs a chill.",
+    "servings": 14,
+    "servingLabel": "1 cookie",
+    "minutes": 60,
+    "heat": "oven",
+    "sourceName": "Sally's Baking Addiction",
+    "sourceUrl": "https://sallysbakingaddiction.com/flourless-peanut-butter-oatmeal-cookies/",
+    "author": "Sally McKenney",
+    "lines": [
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "1 cup (85 g) rolled oats",
+        "grams": 85,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Sally printed 85 g."
+      },
+      {
+        "foodId": "baking-soda",
+        "pantryId": "baking-soda",
+        "amount": "1 tsp baking soda",
+        "grams": 4.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp baking soda = 4.6 g."
+      },
+      {
+        "foodId": "cinnamon",
+        "pantryId": "cinnamon",
+        "amount": "1/4 tsp cinnamon",
+        "grams": 0.65,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp cinnamon = 2.6 g."
+      },
+      {
+        "foodId": "salt",
+        "pantryId": "salt",
+        "amount": "1/8 tsp salt",
+        "grams": 0.75,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp salt = 6 g."
+      },
+      {
+        "foodId": "egg",
+        "pantryId": "egg",
+        "amount": "2 large eggs",
+        "grams": 100.0,
+        "count": 2,
+        "optional": false,
+        "gramNote": "USDA 1 large egg = 50 g."
+      },
+      {
+        "foodId": "pb-unsalted",
+        "pantryId": "peanut-butter",
+        "amount": "1 cup (250 g) natural peanut butter",
+        "grams": 250,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Sally printed 250 g. Natural peanut butter uses the no-salt record."
+      },
+      {
+        "foodId": "brown-sugar",
+        "pantryId": "brown-sugar",
+        "amount": "2/3 cup (133 g) packed brown sugar",
+        "grams": 133,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Sally printed 133 g."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "2 tsp vanilla",
+        "grams": 8.4,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      },
+      {
+        "foodId": "chips",
+        "pantryId": "chocolate",
+        "amount": "2/3 cup (120 g) semisweet chocolate chips",
+        "grams": 120,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Sally printed 120 g."
+      }
+    ],
+    "swaps": [
+      {
+        "id": "egg-yogurt",
+        "removesPantry": "egg",
+        "label": "No egg? Use 1/4 cup plain Greek yogurt for each egg.",
+        "source": "A common baking swap. The recipe writer did not test this version. Counted as low-fat plain Greek yogurt, 56.5 g per egg, from a published 1/2 cup = 113 g.",
+        "author": false,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "greek-lowfat",
+            "gramsEach": 56.5
+          }
+        ]
+      },
+      {
+        "id": "pb-to-almond",
+        "removesPantry": "peanut-butter",
+        "label": "Sally says the same amount of almond butter works.",
+        "source": "Sally's Baking Addiction FAQ.",
+        "author": true,
+        "sameGrams": true,
+        "adds": [
+          {
+            "foodId": "almond-butter",
+            "gramsEach": null
+          }
+        ]
+      },
+      {
+        "id": "pb-to-sun",
+        "removesPantry": "peanut-butter",
+        "label": "Sally says the same amount of sunflower seed butter works. The inside may turn green. That is a science trick, and it is safe.",
+        "source": "Sally's Baking Addiction FAQ.",
+        "author": true,
+        "sameGrams": true,
+        "adds": [
+          {
+            "foodId": "sunflower-butter",
+            "gramsEach": null
+          }
+        ]
+      }
+    ],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Whisk the oats, baking soda, cinnamon, and salt.",
+        "grownup": []
+      },
+      {
+        "text": "In another bowl, whisk the eggs. Stir in the peanut butter, brown sugar, and vanilla. Then stir in the dry mix. Fold in the chips.",
+        "grownup": []
+      },
+      {
+        "text": "Cover the dough and chill it.",
+        "timerSec": 1800,
+        "timerLabel": "30 minutes",
+        "grownup": []
+      },
+      {
+        "text": "Ask a grown-up to heat the oven to 350\u00b0F. Line baking sheets.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Scoop about 1 1/2 tablespoons (30 g) of dough for each cookie. Flatten the tops a little.",
+        "grownup": []
+      },
+      {
+        "text": "Bake until the edges are set and the centers still look soft. Sally says 12 to 14 minutes.",
+        "timerSec": 780,
+        "timerLabel": "13 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Cool 10 minutes on the sheet, then move to a rack.",
+        "timerSec": 600,
+        "timerLabel": "10 minutes",
+        "grownup": [
+          "oven"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mason-protein-bites",
+    "title": "No-bake protein bites",
+    "category": "Bites",
+    "blurb": "Eight little bites. Mason printed a gram weight for every ingredient.",
+    "servings": 8,
+    "servingLabel": "1 bite",
+    "minutes": 10,
+    "heat": "none",
+    "sourceName": "Kinda Healthy Recipes",
+    "sourceUrl": "https://masonfit.com/no-bake-oatmeal-peanut-butter-protein-bites/",
+    "author": "Mason Woodruff",
+    "lines": [
+      {
+        "foodId": "oats",
+        "pantryId": "oats",
+        "amount": "3/4 cup (60 g) rolled oats",
+        "grams": 60,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Mason printed 60 g."
+      },
+      {
+        "foodId": "whey",
+        "pantryId": "protein-powder",
+        "amount": "2 scoops (62 g) vanilla protein powder",
+        "grams": 62,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Mason printed 62 g of a whey-and-casein powder. Nutrients are whey-based protein powder, the closest USDA record."
+      },
+      {
+        "foodId": "pb-flour",
+        "pantryId": "powdered-peanut",
+        "amount": "1/4 cup (26 g) powdered peanut butter",
+        "grams": 26,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Mason printed 26 g. Nutrients are defatted peanut flour."
+      },
+      {
+        "foodId": "banana",
+        "pantryId": "banana",
+        "amount": "1 medium banana (100 g peeled)",
+        "grams": 100,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Mason printed 100 g peeled."
+      },
+      {
+        "foodId": "honey",
+        "pantryId": "honey",
+        "amount": "1/2 tbsp (11 g) honey",
+        "grams": 11,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Mason printed 11 g."
+      },
+      {
+        "foodId": "chips",
+        "pantryId": "chocolate",
+        "amount": "2 tbsp (28 g) mini chocolate chips",
+        "grams": 28,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Mason printed 28 g."
+      }
+    ],
+    "swaps": [
+      {
+        "id": "pb2-to-pb",
+        "removesPantry": "powdered-peanut",
+        "label": "Mason says regular peanut butter can replace the powdered peanut butter. Counted as 1/4 cup (64.5 g), the same measuring cup, because powdered peanut butter is much lighter.",
+        "source": "Kinda Healthy Recipes variations.",
+        "author": true,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "pb-unsalted",
+            "grams": 64.5
+          }
+        ]
+      }
+    ],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Stir the oats, protein powder, and powdered peanut butter.",
+        "grownup": []
+      },
+      {
+        "text": "Mash the banana and add it. Stir, then add the honey and chocolate chips. Mix until it holds together.",
+        "grownup": []
+      },
+      {
+        "text": "Divide into 8 pieces and roll them smooth.",
+        "grownup": []
+      },
+      {
+        "text": "Chill, then eat.",
+        "grownup": []
+      }
+    ]
+  },
+  {
+    "id": "food-network-pb-muffins",
+    "title": "Peanut butter banana protein muffins",
+    "category": "Muffins",
+    "blurb": "Twelve muffins with yogurt, protein powder, and a peanut-butter center.",
+    "servings": 12,
+    "servingLabel": "1 muffin",
+    "minutes": 45,
+    "heat": "oven",
+    "sourceName": "Food Network Kitchen",
+    "sourceUrl": "https://www.foodnetwork.com/recipes/food-network-kitchen/peanut-butter-banana-protein-muffins-18796114",
+    "author": "Food Network Kitchen",
+    "lines": [
+      {
+        "foodId": "flour",
+        "pantryId": "flour",
+        "amount": "1 3/4 cups all-purpose flour",
+        "grams": 218.75,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup all-purpose flour = 125 g. Food Network spoons and levels the cup, which matches this portion better than a scooped cup."
+      },
+      {
+        "foodId": "whey",
+        "pantryId": "protein-powder",
+        "amount": "1/2 cup peanut-butter chocolate whey protein powder",
+        "grams": 48.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "1/2 cup = 48 g from the whey cup fraction. The flavor is not a separate USDA food. Nutrients are unflavored whey-based powder."
+      },
+      {
+        "foodId": "baking-powder",
+        "pantryId": "baking-powder",
+        "amount": "1 tsp baking powder",
+        "grams": 4.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp baking powder = 4.6 g."
+      },
+      {
+        "foodId": "cinnamon",
+        "pantryId": "cinnamon",
+        "amount": "1 tsp cinnamon",
+        "grams": 2.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp cinnamon = 2.6 g."
+      },
+      {
+        "foodId": "baking-soda",
+        "pantryId": "baking-soda",
+        "amount": "1/2 tsp baking soda",
+        "grams": 2.3,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1/2 tsp baking soda = 2.3 g."
+      },
+      {
+        "foodId": "salt",
+        "pantryId": "salt",
+        "amount": "1/2 tsp kosher salt",
+        "grams": 3.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Kosher salt weighs less than table salt. USDA table salt is used. It adds no protein, fiber, calories, or sugar."
+      },
+      {
+        "foodId": "brown-sugar",
+        "pantryId": "brown-sugar",
+        "amount": "1/2 cup packed light brown sugar",
+        "grams": 110.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 packed cup = 220 g."
+      },
+      {
+        "foodId": "greek-whole",
+        "pantryId": "greek-yogurt",
+        "amount": "1/2 cup plain whole-milk Greek yogurt",
+        "grams": 113.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "1/2 cup = 113 g from Monique Volz's printed Greek yogurt weight, which matches this recipe's whole-milk style."
+      },
+      {
+        "foodId": "coconut-oil",
+        "pantryId": "coconut-oil",
+        "amount": "6 tbsp coconut oil",
+        "grams": 81.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tbsp coconut oil = 13.6 g."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "1 tsp vanilla",
+        "grams": 4.2,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      },
+      {
+        "foodId": "egg",
+        "pantryId": "egg",
+        "amount": "2 large eggs",
+        "grams": 100.0,
+        "count": 2,
+        "optional": false,
+        "gramNote": "USDA 1 large egg = 50 g."
+      },
+      {
+        "foodId": "banana",
+        "pantryId": "banana",
+        "amount": "1 3/4 cups mashed banana",
+        "grams": 393.75,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup mashed banana = 225 g. Food Network says that is about 4 large bananas."
+      },
+      {
+        "foodId": "pb-unsalted",
+        "pantryId": "peanut-butter",
+        "amount": "1/2 cup natural peanut butter",
+        "grams": 129.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup peanut butter = 258 g. This is the center of the muffins: 2 tsp in each of 12 muffins equals 1/2 cup."
+      }
+    ],
+    "swaps": [
+      {
+        "id": "egg-yogurt",
+        "removesPantry": "egg",
+        "label": "No egg? Use 1/4 cup plain Greek yogurt for each egg.",
+        "source": "A common baking swap. The recipe writer did not test this version. Counted as low-fat plain Greek yogurt, 56.5 g per egg, from a published 1/2 cup = 113 g.",
+        "author": false,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "greek-lowfat",
+            "gramsEach": 56.5
+          }
+        ]
+      }
+    ],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Ask a grown-up to heat the oven to 350\u00b0F. Line a 12-cup muffin pan.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Whisk the flour, protein powder, baking powder, cinnamon, baking soda, and salt.",
+        "grownup": []
+      },
+      {
+        "text": "Whisk the brown sugar, yogurt, coconut oil, vanilla, and eggs. Stir in the mashed banana, then the flour mix, just until combined.",
+        "grownup": []
+      },
+      {
+        "text": "Fill each liner halfway. Add 2 teaspoons of peanut butter. Cover with the rest of the batter.",
+        "grownup": []
+      },
+      {
+        "text": "Bake until a toothpick comes out clean. The page says 30 to 35 minutes.",
+        "timerSec": 1920,
+        "timerLabel": "32 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Cool 5 minutes in the pan, then move to a rack.",
+        "timerSec": 300,
+        "timerLabel": "5 minutes",
+        "grownup": [
+          "oven"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cookieandkate-muffins",
+    "title": "Whole-wheat banana muffins",
+    "category": "Muffins",
+    "blurb": "Eleven maple-sweetened muffins. Oats are optional in Kathryne's card, so they are not in the base count.",
+    "servings": 11,
+    "servingLabel": "1 muffin",
+    "minutes": 35,
+    "heat": "oven",
+    "sourceName": "Cookie and Kate",
+    "sourceUrl": "https://cookieandkate.com/healthy-banana-muffins-recipe/",
+    "author": "Kathryne Taylor",
+    "lines": [
+      {
+        "foodId": "coconut-oil",
+        "pantryId": "coconut-oil",
+        "amount": "1/3 cup melted coconut oil",
+        "grams": 72.67,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup coconut oil = 218 g. Kathryne also allows olive oil."
+      },
+      {
+        "foodId": "maple",
+        "pantryId": "maple",
+        "amount": "1/2 cup maple syrup",
+        "grams": 157.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup maple syrup = 315 g. Honey is her other choice."
+      },
+      {
+        "foodId": "egg",
+        "pantryId": "egg",
+        "amount": "2 eggs",
+        "grams": 100.0,
+        "count": 2,
+        "optional": false,
+        "gramNote": "USDA 1 large egg = 50 g."
+      },
+      {
+        "foodId": "banana",
+        "pantryId": "banana",
+        "amount": "1 cup mashed banana",
+        "grams": 225.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup mashed banana = 225 g. She says that is about 3 bananas."
+      },
+      {
+        "foodId": "almond-milk",
+        "pantryId": "almond-milk",
+        "amount": "1/4 cup almond milk",
+        "grams": 65.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "She says milk of choice and used almond milk. USDA 1 cup unsweetened almond milk = 262 g."
+      },
+      {
+        "foodId": "baking-soda",
+        "pantryId": "baking-soda",
+        "amount": "1 tsp baking soda",
+        "grams": 4.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp baking soda = 4.6 g."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "1 tsp vanilla",
+        "grams": 4.2,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      },
+      {
+        "foodId": "salt",
+        "pantryId": "salt",
+        "amount": "1/2 tsp salt",
+        "grams": 3.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp salt = 6 g."
+      },
+      {
+        "foodId": "cinnamon",
+        "pantryId": "cinnamon",
+        "amount": "1/2 tsp cinnamon",
+        "grams": 1.3,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp cinnamon = 2.6 g."
+      },
+      {
+        "foodId": "whole-wheat",
+        "pantryId": "whole-wheat",
+        "amount": "1 3/4 cups whole-wheat flour",
+        "grams": 210.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "She allows white whole-wheat or regular whole-wheat. USDA 1 cup whole-grain flour = 120 g."
+      }
+    ],
+    "swaps": [
+      {
+        "id": "egg-yogurt",
+        "removesPantry": "egg",
+        "label": "No egg? Use 1/4 cup plain Greek yogurt for each egg.",
+        "source": "A common baking swap. The recipe writer did not test this version. Counted as low-fat plain Greek yogurt, 56.5 g per egg, from a published 1/2 cup = 113 g.",
+        "author": false,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "greek-lowfat",
+            "gramsEach": 56.5
+          }
+        ]
+      },
+      {
+        "id": "oil-to-olive",
+        "removesPantry": "coconut-oil",
+        "label": "Kathryne says olive oil can replace the coconut oil, same 1/3 cup.",
+        "source": "Cookie and Kate ingredient line.",
+        "author": true,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "olive-oil",
+            "grams": 72.0
+          }
+        ]
+      },
+      {
+        "id": "maple-to-honey-kate",
+        "removesPantry": "maple",
+        "label": "Kathryne says honey can replace the maple syrup.",
+        "source": "Cookie and Kate ingredient line.",
+        "author": true,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "honey",
+            "grams": 169.5
+          }
+        ]
+      },
+      {
+        "id": "almond-milk-to-milk-kate",
+        "removesPantry": "almond-milk",
+        "label": "She says any milk works. This swap uses 1/4 cup of 2% milk (61 g).",
+        "source": "Cookie and Kate ingredient note.",
+        "author": true,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "milk-2",
+            "grams": 61.0
+          }
+        ]
+      }
+    ],
+    "unquantified": [
+      "Optional 1/3 cup oats in the batter, about 1 tablespoon oats on top, and about 1 teaspoon sugar on top. Left out of the base count."
+    ],
+    "steps": [
+      {
+        "text": "Ask a grown-up to heat the oven to 325\u00b0F. Grease a muffin tin if it is not nonstick.",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Whisk the melted coconut oil and maple syrup. Add the eggs and whisk again. Stir in the banana and milk, then the baking soda, vanilla, salt, and cinnamon.",
+        "grownup": []
+      },
+      {
+        "text": "Add the flour. Stir just until combined. Kathryne's oats are optional, so add 1/3 cup only if you want them.",
+        "grownup": []
+      },
+      {
+        "text": "Fill 11 cups about 2/3 full. You can sprinkle a little oats and sugar on top.",
+        "grownup": []
+      },
+      {
+        "text": "Bake until a toothpick comes out clean. She says 22 to 25 minutes.",
+        "timerSec": 1380,
+        "timerLabel": "23 minutes",
+        "grownup": [
+          "oven"
+        ]
+      },
+      {
+        "text": "Cool in the pan. A grown-up may need a butter knife to loosen the edges.",
+        "grownup": [
+          "knife",
+          "oven"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fgf-yogurt-bark",
+    "title": "Frozen yogurt bark",
+    "category": "Bark",
+    "blurb": "Yogurt spread thin, topped with berries and granola, then frozen.",
+    "servings": 12,
+    "servingLabel": "1 piece",
+    "minutes": 10,
+    "heat": "none",
+    "sourceName": "Feel Good Foodie",
+    "sourceUrl": "https://feelgoodfoodie.net/recipe/frozen-yogurt-bark/",
+    "author": "Yumna Jawad",
+    "lines": [
+      {
+        "foodId": "yogurt-vanilla",
+        "pantryId": "yogurt",
+        "amount": "2 cups whole-milk vanilla yogurt",
+        "grams": 490.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "SR Legacy has no whole-milk vanilla yogurt. Low-fat vanilla yogurt is used (1 cup = 245 g). Whole-milk yogurt would have more calories and a little less protein per 100 g."
+      },
+      {
+        "foodId": "strawberries",
+        "pantryId": "strawberries",
+        "amount": "1/2 cup diced strawberries",
+        "grams": 83.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Diced is not a USDA portion. Half of the sliced cup (166 g) is used."
+      },
+      {
+        "foodId": "blueberries",
+        "pantryId": "blueberries",
+        "amount": "1/4 cup blueberries",
+        "grams": 37.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup blueberries = 148 g."
+      },
+      {
+        "foodId": "granola",
+        "pantryId": "granola",
+        "amount": "1/4 cup granola",
+        "grams": 30.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Brand is not named. USDA homemade granola, 1 cup = 122 g."
+      }
+    ],
+    "swaps": [],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Line a small rimmed baking sheet with parchment paper.",
+        "grownup": []
+      },
+      {
+        "text": "Pour the yogurt on and spread it to the edges.",
+        "grownup": []
+      },
+      {
+        "text": "Scatter the strawberries, blueberries, and granola on top.",
+        "grownup": []
+      },
+      {
+        "text": "Freeze until the yogurt is firm.",
+        "timerSec": 10800,
+        "timerLabel": "3 hours",
+        "grownup": []
+      },
+      {
+        "text": "A grown-up cuts about 12 pieces. Eat them cold. Keep leftovers in the freezer.",
+        "grownup": [
+          "knife"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bird-cc-pancakes",
+    "title": "Cottage cheese pancakes",
+    "category": "Pancakes",
+    "blurb": "Eight small pancakes, two plates. Cottage cheese goes in the blender.",
+    "servings": 2,
+    "servingLabel": "4 pancakes",
+    "minutes": 20,
+    "heat": "stove",
+    "sourceName": "Eating Bird Food",
+    "sourceUrl": "https://www.eatingbirdfood.com/cottage-cheese-pancakes/",
+    "author": "Brittany Mullins",
+    "lines": [
+      {
+        "foodId": "flour",
+        "pantryId": "flour",
+        "amount": "1/2 cup all-purpose flour",
+        "grams": 62.5,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup all-purpose flour = 125 g."
+      },
+      {
+        "foodId": "baking-powder",
+        "pantryId": "baking-powder",
+        "amount": "1 tsp baking powder",
+        "grams": 4.6,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp baking powder = 4.6 g."
+      },
+      {
+        "foodId": "cinnamon",
+        "pantryId": "cinnamon",
+        "amount": "1/4 tsp cinnamon",
+        "grams": 0.65,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp cinnamon = 2.6 g."
+      },
+      {
+        "foodId": "cottage-4",
+        "pantryId": "cottage-cheese",
+        "amount": "1 cup 4% cottage cheese",
+        "grams": 225.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Brittany uses Good Culture 4%. USDA small-curd cup = 225 g."
+      },
+      {
+        "foodId": "egg",
+        "pantryId": "egg",
+        "amount": "2 large eggs",
+        "grams": 100.0,
+        "count": 2,
+        "optional": false,
+        "gramNote": "USDA 1 large egg = 50 g."
+      },
+      {
+        "foodId": "maple",
+        "pantryId": "maple",
+        "amount": "1 tbsp maple syrup",
+        "grams": 20.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tbsp maple syrup = 20 g. Extra syrup on top is not counted."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "1 tsp vanilla",
+        "grams": 4.2,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      }
+    ],
+    "swaps": [
+      {
+        "id": "egg-yogurt",
+        "removesPantry": "egg",
+        "label": "No egg? Use 1/4 cup plain Greek yogurt for each egg.",
+        "source": "A common baking swap. The recipe writer did not test this version. Counted as low-fat plain Greek yogurt, 56.5 g per egg, from a published 1/2 cup = 113 g.",
+        "author": false,
+        "sameGrams": false,
+        "adds": [
+          {
+            "foodId": "greek-lowfat",
+            "gramsEach": 56.5
+          }
+        ]
+      }
+    ],
+    "unquantified": [
+      "Optional 1 tablespoon almond milk if the batter is too thick. Maple syrup and berries on top are not in the count."
+    ],
+    "steps": [
+      {
+        "text": "Stir the flour, baking powder, and cinnamon in a bowl.",
+        "grownup": []
+      },
+      {
+        "text": "Blend the cottage cheese, eggs, maple syrup, and vanilla until smooth. No blender? Whisk them instead.",
+        "grownup": []
+      },
+      {
+        "text": "Stir the wet mix into the dry mix. If it is too thick, add 1 tablespoon of milk.",
+        "grownup": []
+      },
+      {
+        "text": "Ask a grown-up to heat a pan on medium-low and spray it.",
+        "grownup": [
+          "stove"
+        ]
+      },
+      {
+        "text": "Pour 1/4-cup circles. Cook until bubbles form and the edges look set.",
+        "grownup": [
+          "stove"
+        ]
+      },
+      {
+        "text": "A grown-up flips them and cooks 2 to 3 more minutes. The batch makes 8 pancakes, 4 for each plate.",
+        "timerSec": 150,
+        "timerLabel": "2 to 3 minutes",
+        "grownup": [
+          "stove"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rice-paper-bagels",
+    "title": "Rice paper breakfast bagels",
+    "category": "Bagels",
+    "blurb": "The crispy rice-paper bagel. Three bagels, eggs in the middle and in the wash.",
+    "servings": 3,
+    "servingLabel": "1 bagel",
+    "minutes": 30,
+    "heat": "oven",
+    "sourceName": "The Chef Out West",
+    "sourceUrl": "https://thechefoutwest.com/bacon-egg-cheese-rice-paper-bagels/",
+    "author": "The Chef Out West",
+    "lines": [
+      {
+        "foodId": "rice-paper",
+        "pantryId": "rice-paper",
+        "amount": "3 rice paper sheets",
+        "grams": null,
+        "count": 1,
+        "optional": false,
+        "gramNote": "No USDA FoodData Central record for rice paper wrappers, so the sheets are not in the numbers."
+      },
+      {
+        "foodId": "egg",
+        "pantryId": "egg",
+        "amount": "6 large eggs",
+        "grams": 300.0,
+        "count": 6,
+        "optional": false,
+        "gramNote": "4 eggs for the filling and 2 for the wash. USDA 1 large egg = 50 g."
+      },
+      {
+        "foodId": "bacon",
+        "pantryId": "bacon",
+        "amount": "3 strips cooked bacon",
+        "grams": 24.3,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 baked slice = 8.1 g. A grocery strip may be heavier."
+      },
+      {
+        "foodId": "mozzarella",
+        "pantryId": "mozzarella",
+        "amount": "3/4 cup shredded mozzarella",
+        "grams": 84.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup shredded whole-milk mozzarella = 112 g."
+      }
+    ],
+    "swaps": [],
+    "unquantified": [
+      "Everything bagel seasoning and a light brush of oil. Amounts are not given, so they are not in the numbers. The rice paper sheets are listed but not counted. See the kitchen math."
+    ],
+    "steps": [
+      {
+        "text": "Ask a grown-up to cook 4 eggs on medium-low until they are soft and just set. Chop the cooked bacon.",
+        "grownup": [
+          "stove",
+          "knife"
+        ]
+      },
+      {
+        "text": "Whisk the other 2 eggs in a wide shallow plate.",
+        "grownup": []
+      },
+      {
+        "text": "Dip one rice paper sheet in the egg wash until it is bendy, not soggy. Lay it on a lightly oiled board.",
+        "grownup": []
+      },
+      {
+        "text": "Spread on some scrambled egg, chopped bacon, and shredded cheese.",
+        "grownup": []
+      },
+      {
+        "text": "Roll it into a tight log. Bend the log into a ring and tuck one end into the other. Repeat for 3 bagels.",
+        "grownup": []
+      },
+      {
+        "text": "Brush the tops with leftover egg wash. Ask a grown-up to bake or air-fry at 400\u00b0F until golden and crisp.",
+        "timerSec": 780,
+        "timerLabel": "13 minutes",
+        "grownup": [
+          "oven"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lifecurrents-cookie-bark",
+    "title": "Peanut butter cookie dough bark",
+    "category": "Bark",
+    "blurb": "Cottage cheese dough, almond flour, and a chocolate lid. Freeze, then snap.",
+    "servings": 20,
+    "servingLabel": "1 piece",
+    "minutes": 20,
+    "heat": "microwave",
+    "sourceName": "Life Currents",
+    "sourceUrl": "https://lifecurrentsblog.com/cottage-cheese-cookie-dough-bark/",
+    "author": "Debi",
+    "lines": [
+      {
+        "foodId": "cottage-4",
+        "pantryId": "cottage-cheese",
+        "amount": "1 cup cottage cheese",
+        "grams": 225.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "Fat level is not named. Creamed cottage cheese, USDA small-curd cup = 225 g."
+      },
+      {
+        "foodId": "pb-unsalted",
+        "pantryId": "peanut-butter",
+        "amount": "2 tbsp natural peanut butter",
+        "grams": 32.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tbsp peanut butter = 16 g."
+      },
+      {
+        "foodId": "maple",
+        "pantryId": "maple",
+        "amount": "1 tbsp maple syrup",
+        "grams": 20.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tbsp maple syrup = 20 g."
+      },
+      {
+        "foodId": "vanilla",
+        "pantryId": "vanilla",
+        "amount": "2 tsp vanilla",
+        "grams": 8.4,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp vanilla = 4.2 g."
+      },
+      {
+        "foodId": "almond-flour",
+        "pantryId": "almond-flour",
+        "amount": "1 cup almond flour",
+        "grams": 95.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "1 cup ground almonds = 95 g (FDC 170567). Nutrients are blanched almonds (FDC 170568)."
+      },
+      {
+        "foodId": "whey",
+        "pantryId": "protein-powder",
+        "amount": "1/4 cup vanilla protein powder",
+        "grams": 24.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "1/4 cup = 24 g from the whey cup fraction. Nutrients are unflavored whey-based powder."
+      },
+      {
+        "foodId": "chips",
+        "pantryId": "chocolate",
+        "amount": "1/3 cup mini chocolate chips",
+        "grams": 57.67,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup mini chips = 173 g."
+      },
+      {
+        "foodId": "chips",
+        "pantryId": "chocolate",
+        "amount": "1 cup chocolate chips for the topping",
+        "grams": 168.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 cup chips = 168 g."
+      },
+      {
+        "foodId": "coconut-oil",
+        "pantryId": "coconut-oil",
+        "amount": "2 tsp coconut oil",
+        "grams": 9.0,
+        "count": 1,
+        "optional": false,
+        "gramNote": "USDA 1 tsp coconut oil = 4.5 g."
+      }
+    ],
+    "swaps": [],
+    "unquantified": [],
+    "steps": [
+      {
+        "text": "Blend the cottage cheese, peanut butter, maple syrup, and vanilla until smooth.",
+        "grownup": []
+      },
+      {
+        "text": "Stir in the almond flour and protein powder, then the mini chips.",
+        "grownup": []
+      },
+      {
+        "text": "Spread the dough on parchment. Wet the spatula if it sticks.",
+        "grownup": []
+      },
+      {
+        "text": "Ask a grown-up to melt the topping chips with the coconut oil, 30 seconds at a time.",
+        "grownup": [
+          "microwave"
+        ]
+      },
+      {
+        "text": "Spread the chocolate over the dough.",
+        "grownup": []
+      },
+      {
+        "text": "Freeze at least 2 hours, until hard.",
+        "timerSec": 7200,
+        "timerLabel": "2 hours",
+        "grownup": []
+      },
+      {
+        "text": "Break into about 20 pieces. Keep them in the freezer.",
+        "grownup": []
+      }
+    ]
+  }
+]

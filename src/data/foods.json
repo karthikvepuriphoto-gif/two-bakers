@@ -1,0 +1,979 @@
+[
+  {
+    "id": "pb-salted",
+    "pantryId": "peanut-butter",
+    "name": "Peanut butter",
+    "fdcId": 174266,
+    "fdcName": "Peanut butter, smooth style, with salt",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/174266/nutrients",
+    "per100g": {
+      "kcal": 598,
+      "protein": 22.21,
+      "fiber": 5,
+      "sugar": 10.49
+    },
+    "allergens": [
+      "peanut"
+    ],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "pb-unsalted",
+    "pantryId": "peanut-butter",
+    "name": "Natural peanut butter",
+    "fdcId": 172470,
+    "fdcName": "Peanut butter, smooth style, without salt",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/172470/nutrients",
+    "per100g": {
+      "kcal": 598,
+      "protein": 22.21,
+      "fiber": 5,
+      "sugar": 10.49
+    },
+    "allergens": [
+      "peanut"
+    ],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "pb-flour",
+    "pantryId": "powdered-peanut",
+    "name": "Powdered peanut butter",
+    "fdcId": 174267,
+    "fdcName": "Peanut flour, defatted",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/174267/nutrients",
+    "per100g": {
+      "kcal": 327,
+      "protein": 52.2,
+      "fiber": 15.8,
+      "sugar": 8.22
+    },
+    "allergens": [
+      "peanut"
+    ],
+    "glutenRisk": false,
+    "note": "Powdered peanut butter is counted as defatted peanut flour. Sugar is USDA nutrient 2000 (total sugars), because 1063 was not published for this food."
+  },
+  {
+    "id": "sunflower-butter",
+    "pantryId": "sunflower-butter",
+    "name": "Sunflower seed butter",
+    "fdcId": 170155,
+    "fdcName": "Seeds, sunflower seed butter, without salt",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/170155/nutrients",
+    "per100g": {
+      "kcal": 617,
+      "protein": 17.28,
+      "fiber": 5.7,
+      "sugar": 10.54
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "almond-butter",
+    "pantryId": "almond-butter",
+    "name": "Almond butter",
+    "fdcId": 168588,
+    "fdcName": "Nuts, almond butter, plain, without salt added",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/168588/nutrients",
+    "per100g": {
+      "kcal": 614,
+      "protein": 20.96,
+      "fiber": 10.3,
+      "sugar": 4.43
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "banana",
+    "pantryId": "banana",
+    "name": "Banana",
+    "fdcId": 173944,
+    "fdcName": "Bananas, raw",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/173944/nutrients",
+    "per100g": {
+      "kcal": 89,
+      "protein": 1.09,
+      "fiber": 2.6,
+      "sugar": 12.23
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "oats",
+    "pantryId": "oats",
+    "name": "Rolled oats",
+    "fdcId": 173904,
+    "fdcName": "Cereals, oats, regular and quick, not fortified, dry",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/173904/nutrients",
+    "per100g": {
+      "kcal": 379,
+      "protein": 13.15,
+      "fiber": 10.1,
+      "sugar": 0.99
+    },
+    "allergens": [],
+    "glutenRisk": true,
+    "note": "Oats are flagged as a gluten risk because they are often packed near wheat. Certified gluten-free oats are a grown-up decision."
+  },
+  {
+    "id": "egg",
+    "pantryId": "egg",
+    "name": "Egg",
+    "fdcId": 171287,
+    "fdcName": "Egg, whole, raw, fresh",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+    "per100g": {
+      "kcal": 143,
+      "protein": 12.56,
+      "fiber": 0,
+      "sugar": 0.37
+    },
+    "allergens": [
+      "egg"
+    ],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "egg-white",
+    "pantryId": "egg",
+    "name": "Egg white",
+    "fdcId": 172183,
+    "fdcName": "Egg, white, raw, fresh",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/172183/nutrients",
+    "per100g": {
+      "kcal": 52,
+      "protein": 10.9,
+      "fiber": 0,
+      "sugar": 0.71
+    },
+    "allergens": [
+      "egg"
+    ],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "greek-nonfat",
+    "pantryId": "greek-yogurt",
+    "name": "Nonfat Greek yogurt",
+    "fdcId": 170894,
+    "fdcName": "Yogurt, Greek, plain, nonfat",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/170894/nutrients",
+    "per100g": {
+      "kcal": 59,
+      "protein": 10.19,
+      "fiber": 0,
+      "sugar": 3.24
+    },
+    "allergens": [
+      "dairy"
+    ],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "greek-lowfat",
+    "pantryId": "greek-yogurt",
+    "name": "Low-fat Greek yogurt",
+    "fdcId": 170903,
+    "fdcName": "Yogurt, Greek, plain, lowfat",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/170903/nutrients",
+    "per100g": {
+      "kcal": 73,
+      "protein": 9.95,
+      "fiber": 0,
+      "sugar": 3.56
+    },
+    "allergens": [
+      "dairy"
+    ],
+    "glutenRisk": false,
+    "note": "Used when a recipe says plain Greek yogurt and allows 2%."
+  },
+  {
+    "id": "greek-whole",
+    "pantryId": "greek-yogurt",
+    "name": "Whole-milk Greek yogurt",
+    "fdcId": 171304,
+    "fdcName": "Yogurt, Greek, plain, whole milk",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/171304/nutrients",
+    "per100g": {
+      "kcal": 97,
+      "protein": 9,
+      "fiber": 0,
+      "sugar": 4
+    },
+    "allergens": [
+      "dairy"
+    ],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "greek-vanilla-low",
+    "pantryId": "greek-yogurt",
+    "name": "Low-fat vanilla Greek yogurt",
+    "fdcId": 170907,
+    "fdcName": "Yogurt, Greek, vanilla, lowfat",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/170907/nutrients",
+    "per100g": {
+      "kcal": 95,
+      "protein": 8.64,
+      "fiber": 0,
+      "sugar": 9.54
+    },
+    "allergens": [
+      "dairy"
+    ],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "yogurt-vanilla",
+    "pantryId": "yogurt",
+    "name": "Low-fat vanilla yogurt",
+    "fdcId": 170888,
+    "fdcName": "Yogurt, vanilla, low fat",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/170888/nutrients",
+    "per100g": {
+      "kcal": 85,
+      "protein": 4.93,
+      "fiber": 0,
+      "sugar": 13.8
+    },
+    "allergens": [
+      "dairy"
+    ],
+    "glutenRisk": false,
+    "note": "SR Legacy has no whole-milk vanilla yogurt. This low-fat record is the closest published vanilla yogurt."
+  },
+  {
+    "id": "cottage-4",
+    "pantryId": "cottage-cheese",
+    "name": "Cottage cheese (4%)",
+    "fdcId": 172179,
+    "fdcName": "Cheese, cottage, creamed, large or small curd",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/172179/nutrients",
+    "per100g": {
+      "kcal": 98,
+      "protein": 11.12,
+      "fiber": 0,
+      "sugar": 2.67
+    },
+    "allergens": [
+      "dairy"
+    ],
+    "glutenRisk": false,
+    "note": "Cup weight is the small-curd, not-packed cup (225 g), the usual grocery tub."
+  },
+  {
+    "id": "cottage-2",
+    "pantryId": "cottage-cheese",
+    "name": "Low-fat cottage cheese (2%)",
+    "fdcId": 172182,
+    "fdcName": "Cheese, cottage, lowfat, 2% milkfat",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/172182/nutrients",
+    "per100g": {
+      "kcal": 81,
+      "protein": 10.45,
+      "fiber": 0,
+      "sugar": 4
+    },
+    "allergens": [
+      "dairy"
+    ],
+    "glutenRisk": false,
+    "note": "Used when the author says low-fat. A 1% record also exists (FDC 173417)."
+  },
+  {
+    "id": "cocoa",
+    "pantryId": "cocoa",
+    "name": "Cocoa powder",
+    "fdcId": 169593,
+    "fdcName": "Cocoa, dry powder, unsweetened",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/169593/nutrients",
+    "per100g": {
+      "kcal": 228,
+      "protein": 19.6,
+      "fiber": 37,
+      "sugar": 1.75
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "honey",
+    "pantryId": "honey",
+    "name": "Honey",
+    "fdcId": 169640,
+    "fdcName": "Honey",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/169640/nutrients",
+    "per100g": {
+      "kcal": 304,
+      "protein": 0.3,
+      "fiber": 0.2,
+      "sugar": 82.12
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "maple",
+    "pantryId": "maple",
+    "name": "Maple syrup",
+    "fdcId": 169661,
+    "fdcName": "Syrups, maple",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/169661/nutrients",
+    "per100g": {
+      "kcal": 260,
+      "protein": 0.04,
+      "fiber": 0,
+      "sugar": 60.46
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "chips",
+    "pantryId": "chocolate",
+    "name": "Semisweet chocolate chips",
+    "fdcId": 167976,
+    "fdcName": "Candies, semisweet chocolate",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/167976/nutrients",
+    "per100g": {
+      "kcal": 480,
+      "protein": 4.2,
+      "fiber": 5.9,
+      "sugar": 54.5
+    },
+    "allergens": [
+      "dairy"
+    ],
+    "glutenRisk": false,
+    "note": "Flagged as dairy because baking chips are usually made with milk."
+  },
+  {
+    "id": "dark-70",
+    "pantryId": "chocolate",
+    "name": "Dark chocolate",
+    "fdcId": 170273,
+    "fdcName": "Chocolate, dark, 70-85% cacao solids",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/170273/nutrients",
+    "per100g": {
+      "kcal": 598,
+      "protein": 7.79,
+      "fiber": 10.9,
+      "sugar": 23.99
+    },
+    "allergens": [
+      "dairy"
+    ],
+    "glutenRisk": false,
+    "note": "Flagged as dairy so a milk-containing bar is not shown as safe. Some 70% bars are dairy-free; a grown-up should read the package."
+  },
+  {
+    "id": "baking-powder",
+    "pantryId": "baking-powder",
+    "name": "Baking powder",
+    "fdcId": 172803,
+    "fdcName": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/172803/nutrients",
+    "per100g": {
+      "kcal": 53,
+      "protein": 0,
+      "fiber": 0.2,
+      "sugar": 0
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "baking-soda",
+    "pantryId": "baking-soda",
+    "name": "Baking soda",
+    "fdcId": 175040,
+    "fdcName": "Leavening agents, baking soda",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/175040/nutrients",
+    "per100g": {
+      "kcal": 0,
+      "protein": 0,
+      "fiber": 0,
+      "sugar": 0
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "vanilla",
+    "pantryId": "vanilla",
+    "name": "Vanilla extract",
+    "fdcId": 173471,
+    "fdcName": "Vanilla extract",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/173471/nutrients",
+    "per100g": {
+      "kcal": 288,
+      "protein": 0.06,
+      "fiber": 0,
+      "sugar": 12.65
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "cinnamon",
+    "pantryId": "cinnamon",
+    "name": "Cinnamon",
+    "fdcId": 171320,
+    "fdcName": "Spices, cinnamon, ground",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/171320/nutrients",
+    "per100g": {
+      "kcal": 247,
+      "protein": 3.99,
+      "fiber": 53.1,
+      "sugar": 2.17
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "salt",
+    "pantryId": "salt",
+    "name": "Salt",
+    "fdcId": 173468,
+    "fdcName": "Salt, table",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+    "per100g": {
+      "kcal": 0,
+      "protein": 0,
+      "fiber": 0,
+      "sugar": 0
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "whey",
+    "pantryId": "protein-powder",
+    "name": "Whey protein powder",
+    "fdcId": 173180,
+    "fdcName": "Beverages, Protein powder whey based",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/173180/nutrients",
+    "per100g": {
+      "kcal": 352,
+      "protein": 78.13,
+      "fiber": 3.1,
+      "sugar": 0
+    },
+    "allergens": [
+      "dairy"
+    ],
+    "glutenRisk": false,
+    "note": "Flavored powders are often lower in protein than this unflavored whey-based record. The recipe still gets this USDA row, and the screen says so."
+  },
+  {
+    "id": "whey-isolate",
+    "pantryId": "protein-powder",
+    "name": "Whey protein isolate",
+    "fdcId": 173177,
+    "fdcName": "Beverages, Whey protein powder isolate",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/173177/nutrients",
+    "per100g": {
+      "kcal": 359,
+      "protein": 58.14,
+      "fiber": 0,
+      "sugar": 1.16
+    },
+    "allergens": [
+      "dairy"
+    ],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "soy-protein",
+    "pantryId": "protein-powder",
+    "name": "Soy protein powder",
+    "fdcId": 173181,
+    "fdcName": "Beverages, Protein powder soy based",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/173181/nutrients",
+    "per100g": {
+      "kcal": 388,
+      "protein": 55.56,
+      "fiber": 6.7,
+      "sugar": 22.22
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": "Stand-in for an unspecified plant protein powder. The cup weight is borrowed from whey protein powder, which is the protein powder with a published cup fraction (1/3 cup = 32 g)."
+  },
+  {
+    "id": "flour",
+    "pantryId": "flour",
+    "name": "All-purpose flour",
+    "fdcId": 168894,
+    "fdcName": "Wheat flour, white, all-purpose, enriched, bleached",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/168894/nutrients",
+    "per100g": {
+      "kcal": 364,
+      "protein": 10.33,
+      "fiber": 2.7,
+      "sugar": 0.27
+    },
+    "allergens": [
+      "gluten"
+    ],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "whole-wheat",
+    "pantryId": "whole-wheat",
+    "name": "Whole-wheat flour",
+    "fdcId": 168893,
+    "fdcName": "Wheat flour, whole-grain",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/168893/nutrients",
+    "per100g": {
+      "kcal": 340,
+      "protein": 13.21,
+      "fiber": 10.7,
+      "sugar": 0.41
+    },
+    "allergens": [
+      "gluten"
+    ],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "soft-wheat",
+    "pantryId": "whole-wheat",
+    "name": "Soft whole-wheat flour",
+    "fdcId": 168944,
+    "fdcName": "Wheat flour, whole-grain, soft wheat",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/168944/nutrients",
+    "per100g": {
+      "kcal": 332,
+      "protein": 9.61,
+      "fiber": 13.1,
+      "sugar": 1.02
+    },
+    "allergens": [
+      "gluten"
+    ],
+    "glutenRisk": false,
+    "note": "Stand-in for whole-wheat pastry flour, which is not its own SR Legacy food. The author's gram weight is used."
+  },
+  {
+    "id": "almond-flour",
+    "pantryId": "almond-flour",
+    "name": "Almond flour",
+    "fdcId": 170568,
+    "fdcName": "Nuts, almonds, blanched",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/170568/nutrients",
+    "per100g": {
+      "kcal": 590,
+      "protein": 21.4,
+      "fiber": 9.9,
+      "sugar": 4.63
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": "Almond flour is not a separate SR Legacy food. Nutrients are blanched almonds (FDC 170568). One cup uses the ground-almond portion on FDC 170567 (95 g)."
+  },
+  {
+    "id": "brown-sugar",
+    "pantryId": "brown-sugar",
+    "name": "Brown sugar",
+    "fdcId": 168833,
+    "fdcName": "Sugars, brown",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/168833/nutrients",
+    "per100g": {
+      "kcal": 380,
+      "protein": 0.12,
+      "fiber": 0,
+      "sugar": 97.02
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "walnuts",
+    "pantryId": "walnuts",
+    "name": "Walnuts",
+    "fdcId": 170187,
+    "fdcName": "Nuts, walnuts, english",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/170187/nutrients",
+    "per100g": {
+      "kcal": 654,
+      "protein": 15.23,
+      "fiber": 6.7,
+      "sugar": 2.61
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "raisins",
+    "pantryId": "raisins",
+    "name": "Raisins",
+    "fdcId": 168165,
+    "fdcName": "Raisins, dark, seedless",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/168165/nutrients",
+    "per100g": {
+      "kcal": 299,
+      "protein": 3.3,
+      "fiber": 4.5,
+      "sugar": 65.18
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "coconut",
+    "pantryId": "coconut",
+    "name": "Unsweetened coconut",
+    "fdcId": 170170,
+    "fdcName": "Nuts, coconut meat, dried (desiccated), not sweetened",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/170170/nutrients",
+    "per100g": {
+      "kcal": 660,
+      "protein": 6.88,
+      "fiber": 16.3,
+      "sugar": 7.35
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": "Unsweetened coconut only publishes a 1 oz weight. Cup measures use the shredded-cup weight from sweetened shredded coconut (FDC 168586, 93 g) with these unsweetened nutrients."
+  },
+  {
+    "id": "strawberries",
+    "pantryId": "strawberries",
+    "name": "Strawberries",
+    "fdcId": 167762,
+    "fdcName": "Strawberries, raw",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/167762/nutrients",
+    "per100g": {
+      "kcal": 32,
+      "protein": 0.67,
+      "fiber": 2,
+      "sugar": 4.89
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "blueberries",
+    "pantryId": "blueberries",
+    "name": "Blueberries",
+    "fdcId": 171711,
+    "fdcName": "Blueberries, raw",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/171711/nutrients",
+    "per100g": {
+      "kcal": 57,
+      "protein": 0.74,
+      "fiber": 2.4,
+      "sugar": 9.96
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "milk-2",
+    "pantryId": "milk",
+    "name": "Milk (2%)",
+    "fdcId": 171267,
+    "fdcName": "Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/171267/nutrients",
+    "per100g": {
+      "kcal": 50,
+      "protein": 3.3,
+      "fiber": 0,
+      "sugar": 5.06
+    },
+    "allergens": [
+      "dairy"
+    ],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "milk-skim",
+    "pantryId": "milk",
+    "name": "Skim milk",
+    "fdcId": 171269,
+    "fdcName": "Milk, nonfat, fluid, with added vitamin A and vitamin D",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/171269/nutrients",
+    "per100g": {
+      "kcal": 34,
+      "protein": 3.37,
+      "fiber": 0,
+      "sugar": 5.09
+    },
+    "allergens": [
+      "dairy"
+    ],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "almond-milk",
+    "pantryId": "almond-milk",
+    "name": "Unsweetened almond milk",
+    "fdcId": 174832,
+    "fdcName": "Beverages, almond milk, unsweetened, shelf stable",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/174832/nutrients",
+    "per100g": {
+      "kcal": 15,
+      "protein": 0.4,
+      "fiber": 0.2,
+      "sugar": 0.81
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "mozzarella",
+    "pantryId": "mozzarella",
+    "name": "Mozzarella",
+    "fdcId": 170845,
+    "fdcName": "Cheese, mozzarella, whole milk",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/170845/nutrients",
+    "per100g": {
+      "kcal": 299,
+      "protein": 22.17,
+      "fiber": 0,
+      "sugar": 0
+    },
+    "allergens": [
+      "dairy"
+    ],
+    "glutenRisk": false,
+    "note": "Shredded cup weight (112 g) is published on this whole-milk record."
+  },
+  {
+    "id": "bacon",
+    "pantryId": "bacon",
+    "name": "Cooked bacon",
+    "fdcId": 167914,
+    "fdcName": "Pork, cured, bacon, cooked, baked",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/167914/nutrients",
+    "per100g": {
+      "kcal": 548,
+      "protein": 35.73,
+      "fiber": 0,
+      "sugar": 0
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": "One strip uses USDA '1 slice cooked' (8.1 g), which can be thinner than a grocery strip."
+  },
+  {
+    "id": "butter",
+    "pantryId": "butter",
+    "name": "Butter",
+    "fdcId": 173430,
+    "fdcName": "Butter, without salt",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+    "per100g": {
+      "kcal": 717,
+      "protein": 0.85,
+      "fiber": 0,
+      "sugar": 0.06
+    },
+    "allergens": [
+      "dairy"
+    ],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "coconut-oil",
+    "pantryId": "coconut-oil",
+    "name": "Coconut oil",
+    "fdcId": 171412,
+    "fdcName": "Oil, coconut",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/171412/nutrients",
+    "per100g": {
+      "kcal": 892,
+      "protein": 0,
+      "fiber": 0,
+      "sugar": 0
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "olive-oil",
+    "pantryId": "olive-oil",
+    "name": "Olive oil",
+    "fdcId": 171413,
+    "fdcName": "Oil, olive, salad or cooking",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/171413/nutrients",
+    "per100g": {
+      "kcal": 884,
+      "protein": 0,
+      "fiber": 0,
+      "sugar": 0
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "onion-powder",
+    "pantryId": "onion-powder",
+    "name": "Onion powder",
+    "fdcId": 171327,
+    "fdcName": "Spices, onion powder",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/171327/nutrients",
+    "per100g": {
+      "kcal": 341,
+      "protein": 10.41,
+      "fiber": 15.2,
+      "sugar": 6.63
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "garlic-powder",
+    "pantryId": "garlic-powder",
+    "name": "Garlic powder",
+    "fdcId": 171325,
+    "fdcName": "Spices, garlic powder",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/171325/nutrients",
+    "per100g": {
+      "kcal": 331,
+      "protein": 16.55,
+      "fiber": 9,
+      "sugar": 2.43
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "oregano",
+    "pantryId": "oregano",
+    "name": "Dried oregano",
+    "fdcId": 171328,
+    "fdcName": "Spices, oregano, dried",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/171328/nutrients",
+    "per100g": {
+      "kcal": 265,
+      "protein": 9,
+      "fiber": 42.5,
+      "sugar": 4.09
+    },
+    "allergens": [],
+    "glutenRisk": false,
+    "note": ""
+  },
+  {
+    "id": "granola",
+    "pantryId": "granola",
+    "name": "Homemade granola",
+    "fdcId": 171646,
+    "fdcName": "Cereals ready-to-eat, granola, homemade",
+    "dataset": "USDA FoodData Central, SR Legacy, April 2018",
+    "fdcUrl": "https://fdc.nal.usda.gov/food-details/171646/nutrients",
+    "per100g": {
+      "kcal": 489,
+      "protein": 13.67,
+      "fiber": 8.9,
+      "sugar": 19.8
+    },
+    "allergens": [],
+    "glutenRisk": true,
+    "note": "The author did not name a granola brand. Homemade granola is the USDA record used, and it counts as a gluten risk because of the oats."
+  },
+  {
+    "id": "rice-paper",
+    "pantryId": "rice-paper",
+    "name": "Rice paper sheets",
+    "fdcId": null,
+    "fdcName": null,
+    "dataset": null,
+    "fdcUrl": null,
+    "per100g": null,
+    "allergens": [],
+    "glutenRisk": false,
+    "note": "SR Legacy (April 2018) and Foundation Foods (April 2026) have no rice-paper wrapper. Wonton wrappers were not used as a stand-in: USDA says they include egg-roll wrappers, which contain wheat."
+  }
+]
