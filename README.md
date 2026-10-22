@@ -11,7 +11,9 @@ npm install
 npm run dev -- --host 0.0.0.0 --port 43123
 ```
 
-Open http://127.0.0.1:43123
+Open http://127.0.0.1:43123/two-bakers/
+
+The Vite `base` is `/two-bakers/`, the same path GitHub Pages uses.
 
 To build the files a static host serves:
 
@@ -20,7 +22,9 @@ npm run build
 npm run preview -- --host 0.0.0.0 --port 43123
 ```
 
-The built site is in `dist/`, including a web app manifest and a service worker so a phone can install it.
+Open the preview at http://127.0.0.1:43123/two-bakers/
+
+The built site is in `dist/`, including a web app manifest and a service worker so a phone can install it. Manifest `start_url` and `scope`, and the service worker, are `/two-bakers/`.
 
 ## Where the recipes and numbers come from
 
@@ -37,34 +41,12 @@ Open **How we counted** on any snack to see the FDC id, the gram weight, and the
 
 Allergy switches hide peanut, dairy, egg, and gluten recipes. Oats count as a gluten risk. Chocolate chips count as dairy. A written swap does not bring a hidden recipe back, because the steps still name the original food. Yogurt in place of an egg is only offered when eggs are allowed and the egg is simply missing.
 
-## Move it to GitHub Pages later
+## GitHub Pages
 
-The app is a single-page static build.
+The public site is https://karthikvepuriphoto-gif.github.io/two-bakers/
 
-1. Create a GitHub repository and push this project.
-2. If the site will live at `https://USERNAME.github.io/REPO/`, set the Vite base in `vite.config.ts`:
+Source lives at https://github.com/karthikvepuriphoto-gif/two-bakers
 
-```ts
-export default defineConfig({
-  base: "/REPO/",
-  // ...plugins
-})
-```
+`.github/workflows/pages.yml` runs `npm ci` and `npm run build` on every push to `main`, then deploys `dist` with GitHub Pages. In the repository settings, Pages source must be GitHub Actions.
 
-Leave `base` as `"/"` for a user site at `https://USERNAME.github.io/` or for any host that serves the site at the domain root.
-
-3. Build:
-
-```bash
-npm run build
-```
-
-4. Deploy the `dist` folder. With the `gh-pages` package:
-
-```bash
-npx gh-pages -d dist
-```
-
-Or in the repository settings, use GitHub Actions to run `npm ci`, `npm run build`, and upload `dist` to the Pages environment. Set the Pages source to GitHub Actions.
-
-5. On a phone, open the Pages URL in Chrome or Safari and use **Add to Home Screen** or the install prompt. The service worker caches the app for offline use after the first visit.
+On a phone, open the Pages URL in Chrome or Safari and use **Add to Home Screen** or the install prompt. The service worker caches the app for offline use after the first visit.
